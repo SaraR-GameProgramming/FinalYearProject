@@ -1001,3 +1001,604 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.07-20.19.36:883][179]LogFileHelpers: Saving map 'TestArea' took 0.113
 [2022.02.07-20.19.36:928][179]AssetCheck: New page: Asset Save: TestArea
 [2022.02.07-20.19.36:929][179]LogContentValidation: Display: Validating World /Game/Sara/TestArea.TestArea
+[2022.02.07-20.21.52:920][ 12]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.02.07-20.21.53:825][ 12]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0063 seconds. Added 126 classes and 0 folders.
+[2022.02.07-20.21.56:487][ 12]LogSlate: Took 0.011696 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.02.07-20.22.14:661][440]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2022.02.07-20.22.14:676][440]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2022.02.07-20.22.14:685][440]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-20.22.14:685][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-20.22.15:858][461]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-20.22.16:013][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-20.22.16:055][461]PIE: New page: PIE session: TestArea (7 Feb 2022, 20:22:16)
+[2022.02.07-20.22.16:189][461]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.02.07-20.22.16:193][461]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.02.07-20.22.16:213][461]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-20.22.16:297][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065728s)
+[2022.02.07-20.22.16:329][461]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-20.22.16:347][461]LogPlayLevel: PIE: World Init took: (0.049777s)
+[2022.02.07-20.22.16:363][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.149650s)
+[2022.02.07-20.22.16:396][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.02.07-20.22.16:423][461]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.02.07-20.22.16:423][461]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-20.22.16:423][461]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-20.22.16:423][461]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-20.22.16:423][461]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-20.22.16:423][461]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-20.22.16:423][461]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-20.22.16:423][461]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-20.22.16:423][461]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-20.22.16:424][461]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-20.22.16:424][461]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-20.22.16:430][461]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-20.22.16:430][461]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-20.22.16:465][461]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-20.22.16:466][461]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-20.22.16:466][461]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-20.22.16:466][461]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-20.22.16:467][461]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-20.22.16:467][461]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-20.22.16:467][461]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-20.22.16:491][461]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-20.22.16:491][461]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-20.22.16:491][461]LogInit: FAudioDevice initialized.
+[2022.02.07-20.22.16:491][461]LogAudio: Display: Audio Device (ID: 2) registered with world 'TestArea'.
+[2022.02.07-20.22.16:599][461]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-20.22.16:824][461]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-20.22.16
+[2022.02.07-20.22.16:990][461]LogWorld: Bringing up level for play took: 0.235195
+[2022.02.07-20.22.17:037][461]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2022.02.07-20.22.17:128][461]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 20 classes and 0 folders.
+[2022.02.07-20.22.17:153][461]PIE: Server logged in
+[2022.02.07-20.22.17:157][461]PIE: Play in editor total start time 1.254 seconds.
+[2022.02.07-20.24.34:572][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-20.24.34:572][268]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-20.24.34:582][268]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-20.24.34:600][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-20.24.34:654][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-20.24.34:741][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-20.24.34:762][268]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.07-20.24.34:808][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-20.24.34:810][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-20.24.34:908][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-20.24.35:022][268]LogUObjectHash: Compacting FUObjectHashTables data took  20.95ms
+[2022.02.07-20.24.35:081][269]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.02.07-20.24.42:685][448]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2022.02.07-20.24.44:313][488]Cmd: DELETE
+[2022.02.07-20.24.44:432][488]Cmd: ACTOR DELETE
+[2022.02.07-20.24.44:578][488]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2022.02.07-20.24.44:657][488]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2022.02.07-20.24.44:663][488]LogEditorActor: Deleted 1 Actors (0.195 secs)
+[2022.02.07-20.25.15:377][470]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.02.07-20.25.17:746][546]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.02.07-20.25.20:552][634]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-20.25.20:571][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-20.25.20:572][634]PIE: New page: PIE session: TestArea (7 Feb 2022, 20:25:20)
+[2022.02.07-20.25.20:572][634]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-20.25.20:587][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015232s)
+[2022.02.07-20.25.20:589][634]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-20.25.20:589][634]LogPlayLevel: PIE: World Init took: (0.001959s)
+[2022.02.07-20.25.20:589][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.017428s)
+[2022.02.07-20.25.20:613][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.02.07-20.25.20:618][634]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.02.07-20.25.20:618][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-20.25.20:618][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-20.25.20:618][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-20.25.20:618][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-20.25.20:618][634]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-20.25.20:618][634]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-20.25.20:618][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-20.25.20:618][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-20.25.20:618][634]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-20.25.20:618][634]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-20.25.20:622][634]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-20.25.20:622][634]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-20.25.20:647][634]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-20.25.20:648][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-20.25.20:648][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-20.25.20:648][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-20.25.20:649][634]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-20.25.20:649][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-20.25.20:649][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-20.25.20:670][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-20.25.20:670][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-20.25.20:670][634]LogInit: FAudioDevice initialized.
+[2022.02.07-20.25.20:670][634]LogAudio: Display: Audio Device (ID: 3) registered with world 'TestArea'.
+[2022.02.07-20.25.20:681][634]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-20.25.20:684][634]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-20.25.20
+[2022.02.07-20.25.20:684][634]LogWorld: Bringing up level for play took: 0.002624
+[2022.02.07-20.25.20:684][634]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.02.07-20.25.20:753][634]PIE: Server logged in
+[2022.02.07-20.25.20:755][634]PIE: Play in editor total start time 0.189 seconds.
+[2022.02.07-20.27.28:651][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-20.27.28:651][216]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-20.27.28:651][216]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-20.27.28:653][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-20.27.28:683][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-20.27.28:709][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-20.27.28:731][216]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.07-20.27.28:731][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-20.27.28:733][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-20.27.28:758][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-20.27.28:762][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.02.07-20.27.28:808][217]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.02.07-20.27.32:849][369]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.02.07-20.27.37:921][534]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.07-20.27.45:952][777]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.02.07-20.27.50:536][915]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.02.07-20.27.53:079][986]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.02.07-20.29.46:831][149]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.02.07-20.34.03:377][816]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2022.02.07-20.34.03:447][816]LogSavePackage: Moving '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/TestArea_Auto63D34AEF94E711536401D5C81F4254212.tmp' to '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/Autosaves/Game/Sara/TestArea_Auto6.umap'
+[2022.02.07-20.34.03:454][816]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sara/TestArea' took 0.104
+[2022.02.07-20.34.03:454][816]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.104
+[2022.02.07-20.37.26:820][283]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.02.07-20.38.25:442][943]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'APawn::AddControllerYawInput' [Element not found.]
+[2022.02.07-20.38.54:801][775]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2022.02.07-20.38.54:846][775]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2022.02.07-20.38.54:858][775]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-20.38.54:858][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-20.41.24:682][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x416)
+[2022.02.07-20.41.26:684][ 16]Cmd: DUPLICATE
+[2022.02.07-20.41.26:684][ 16]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.41.51:568][816]Cmd: DUPLICATE
+[2022.02.07-20.41.51:568][816]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.42.32:685][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x438)
+[2022.02.07-20.43.44:336][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2022.02.07-20.43.46:711][158]Cmd: DUPLICATE
+[2022.02.07-20.43.46:711][158]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.43.58:484][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x438)
+[2022.02.07-20.44.35:514][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x430)
+[2022.02.07-20.44.37:071][621]Cmd: DUPLICATE
+[2022.02.07-20.44.37:072][621]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.44.45:566][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x439)
+[2022.02.07-20.44.52:426][ 41]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-20.44.52:446][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-20.44.52:446][ 41]PIE: New page: PIE session: TestArea (7 Feb 2022, 20:44:52)
+[2022.02.07-20.44.52:446][ 41]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-20.44.52:462][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016365s)
+[2022.02.07-20.44.52:464][ 41]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-20.44.52:464][ 41]LogPlayLevel: PIE: World Init took: (0.001850s)
+[2022.02.07-20.44.52:464][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.018478s)
+[2022.02.07-20.44.52:494][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2022.02.07-20.44.52:508][ 41]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.02.07-20.44.52:508][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-20.44.52:508][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-20.44.52:508][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-20.44.52:508][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-20.44.52:508][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-20.44.52:508][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-20.44.52:508][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-20.44.52:508][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-20.44.52:508][ 41]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-20.44.52:508][ 41]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-20.44.52:513][ 41]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-20.44.52:513][ 41]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-20.44.52:538][ 41]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-20.44.52:539][ 41]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-20.44.52:539][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-20.44.52:539][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-20.44.52:540][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-20.44.52:540][ 41]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-20.44.52:540][ 41]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-20.44.52:560][ 41]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-20.44.52:560][ 41]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-20.44.52:560][ 41]LogInit: FAudioDevice initialized.
+[2022.02.07-20.44.52:560][ 41]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestArea'.
+[2022.02.07-20.44.52:570][ 41]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-20.44.52:573][ 41]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-20.44.52
+[2022.02.07-20.44.52:574][ 41]LogWorld: Bringing up level for play took: 0.003258
+[2022.02.07-20.44.52:574][ 41]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.02.07-20.44.52:579][ 41]PIE: Server logged in
+[2022.02.07-20.44.52:580][ 41]PIE: Play in editor total start time 0.14 seconds.
+[2022.02.07-20.49.05:976][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-20.49.05:976][665]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-20.49.05:976][665]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-20.49.05:978][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-20.49.06:016][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-20.49.06:051][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-20.49.06:076][665]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.07-20.49.06:076][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-20.49.06:078][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-20.49.06:104][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-20.49.06:108][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.02.07-20.49.06:166][666]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.02.07-20.49.22:648][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2022.02.07-20.49.24:504][236]Cmd: DUPLICATE
+[2022.02.07-20.49.24:504][236]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.50.06:161][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
+[2022.02.07-20.50.07:487][563]Cmd: DUPLICATE
+[2022.02.07-20.50.07:487][563]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.50.35:403][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x430)
+[2022.02.07-20.50.36:713][449]Cmd: DUPLICATE
+[2022.02.07-20.50.36:713][449]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.51.46:537][682]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2022.02.07-20.51.46:594][682]LogSavePackage: Moving '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/TestArea_Auto7460ADAD14F4CF76083E9CFBEE20ED89D.tmp' to '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/Autosaves/Game/Sara/TestArea_Auto7.umap'
+[2022.02.07-20.51.46:601][682]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sara/TestArea' took 0.089
+[2022.02.07-20.51.46:601][682]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.089
+[2022.02.07-20.52.33:520][171]Cmd: DUPLICATE
+[2022.02.07-20.52.33:520][171]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.52.48:646][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x433)
+[2022.02.07-20.52.49:875][692]Cmd: DUPLICATE
+[2022.02.07-20.52.49:876][692]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.52.58:952][980]Cmd: DUPLICATE
+[2022.02.07-20.52.58:952][980]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.53.29:086][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x415)
+[2022.02.07-20.53.31:375][963]Cmd: DUPLICATE
+[2022.02.07-20.53.31:375][963]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.54.00:622][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x436)
+[2022.02.07-20.54.23:050][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x438)
+[2022.02.07-20.54.36:370][818]Cmd: DUPLICATE
+[2022.02.07-20.54.36:371][818]Cmd: ACTOR DUPLICATE
+[2022.02.07-20.54.53:483][258]Cmd: TRANSACTION UNDO
+[2022.02.07-20.54.53:483][258]LogEditorTransaction: Undo Move Actors
+[2022.02.07-20.59.13:551][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x402)
+[2022.02.07-20.59.26:658][159]Cmd: DUPLICATE
+[2022.02.07-20.59.26:658][159]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.00.21:296][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x439)
+[2022.02.07-21.00.32:571][ 73]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-21.00.32:595][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-21.00.32:596][ 73]PIE: New page: PIE session: TestArea (7 Feb 2022, 21:00:32)
+[2022.02.07-21.00.32:596][ 73]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.00.32:613][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017349s)
+[2022.02.07-21.00.32:615][ 73]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-21.00.32:616][ 73]LogPlayLevel: PIE: World Init took: (0.002265s)
+[2022.02.07-21.00.32:616][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.020080s)
+[2022.02.07-21.00.32:644][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.02.07-21.00.32:659][ 73]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.02.07-21.00.32:659][ 73]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-21.00.32:659][ 73]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-21.00.32:659][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-21.00.32:659][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-21.00.32:659][ 73]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-21.00.32:659][ 73]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-21.00.32:659][ 73]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-21.00.32:659][ 73]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-21.00.32:660][ 73]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-21.00.32:660][ 73]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-21.00.32:664][ 73]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-21.00.32:664][ 73]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-21.00.32:690][ 73]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-21.00.32:690][ 73]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-21.00.32:690][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-21.00.32:690][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-21.00.32:691][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-21.00.32:691][ 73]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-21.00.32:691][ 73]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-21.00.32:711][ 73]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-21.00.32:711][ 73]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-21.00.32:711][ 73]LogInit: FAudioDevice initialized.
+[2022.02.07-21.00.32:711][ 73]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestArea'.
+[2022.02.07-21.00.32:720][ 73]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-21.00.32:724][ 73]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-21.00.32
+[2022.02.07-21.00.32:724][ 73]LogWorld: Bringing up level for play took: 0.003839
+[2022.02.07-21.00.32:724][ 73]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.02.07-21.00.32:729][ 73]PIE: Server logged in
+[2022.02.07-21.00.32:730][ 73]PIE: Play in editor total start time 0.14 seconds.
+[2022.02.07-21.01.28:833][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.01.28:833][970]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.01.28:833][970]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-21.01.28:835][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.01.28:884][970]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-21.01.28:916][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.01.28:939][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.01.28:940][970]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.01.28:942][970]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.01.28:971][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.02.07-21.01.29:024][971]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.02.07-21.02.25:758][352]LogActorFactory: Actor Factory created SM_Door
+[2022.02.07-21.02.30:008][484]LogActorFactory: Actor Factory created SM_Door
+[2022.02.07-21.02.30:975][499]LogActorFactory: Actor Factory created SM_DoorFrame
+[2022.02.07-21.02.32:653][549]LogActorFactory: Actor Factory created SM_DoorFrame
+[2022.02.07-21.03.43:045][656]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2022.02.07-21.03.43:104][656]LogSavePackage: Moving '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/TestArea_Auto886A5337D4C10E4B172E39BAC2D3549A4.tmp' to '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/Autosaves/Game/Sara/TestArea_Auto8.umap'
+[2022.02.07-21.03.43:109][656]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sara/TestArea' took 0.092
+[2022.02.07-21.03.43:110][656]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.092
+[2022.02.07-21.04.11:987][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2022.02.07-21.04.43:249][348]Cmd: TRANSACTION UNDO
+[2022.02.07-21.04.43:249][348]LogEditorTransaction: Undo Move Actors
+[2022.02.07-21.05.09:574][142]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame)
+[2022.02.07-21.05.16:638][360]Cmd: DUPLICATE
+[2022.02.07-21.05.16:638][360]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.05.42:729][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2022.02.07-21.05.43:290][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2022.02.07-21.05.44:247][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2022.02.07-21.05.46:713][263]Cmd: DELETE
+[2022.02.07-21.05.46:713][263]Cmd: ACTOR DELETE
+[2022.02.07-21.05.46:724][263]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.07-21.05.46:760][263]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.02.07-21.05.46:775][263]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2022.02.07-21.05.52:422][449]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-21.05.52:442][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-21.05.52:442][449]PIE: New page: PIE session: TestArea (7 Feb 2022, 21:05:52)
+[2022.02.07-21.05.52:443][449]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.05.52:461][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018141s)
+[2022.02.07-21.05.52:463][449]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-21.05.52:463][449]LogPlayLevel: PIE: World Init took: (0.001998s)
+[2022.02.07-21.05.52:463][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.020425s)
+[2022.02.07-21.05.52:488][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.02.07-21.05.52:490][449]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.02.07-21.05.52:490][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-21.05.52:490][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-21.05.52:490][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-21.05.52:490][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-21.05.52:490][449]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-21.05.52:490][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-21.05.52:490][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-21.05.52:490][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-21.05.52:490][449]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-21.05.52:490][449]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-21.05.52:494][449]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-21.05.52:494][449]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-21.05.52:518][449]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-21.05.52:519][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-21.05.52:519][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-21.05.52:519][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-21.05.52:520][449]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-21.05.52:520][449]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-21.05.52:520][449]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-21.05.52:539][449]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-21.05.52:539][449]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-21.05.52:539][449]LogInit: FAudioDevice initialized.
+[2022.02.07-21.05.52:539][449]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestArea'.
+[2022.02.07-21.05.52:550][449]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-21.05.52:554][449]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-21.05.52
+[2022.02.07-21.05.52:554][449]LogWorld: Bringing up level for play took: 0.003640
+[2022.02.07-21.05.52:554][449]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.02.07-21.05.52:559][449]PIE: Server logged in
+[2022.02.07-21.05.52:560][449]PIE: Play in editor total start time 0.122 seconds.
+[2022.02.07-21.06.48:279][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.06.48:279][334]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.06.48:279][334]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-21.06.48:280][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.06.48:296][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-21.06.48:304][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.06.48:330][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.06.48:331][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.06.48:332][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.06.48:362][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.02.07-21.06.48:397][335]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.02.07-21.06.59:451][687]LogActorFactory: Actor Factory created SM_CornerFrame
+[2022.02.07-21.07.00:434][717]LogActorFactory: Actor Factory created SM_CornerFrame
+[2022.02.07-21.07.10:797][ 40]Cmd: DELETE
+[2022.02.07-21.07.10:797][ 40]Cmd: ACTOR DELETE
+[2022.02.07-21.07.10:804][ 40]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.07-21.07.10:845][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2022.02.07-21.07.10:850][ 40]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2022.02.07-21.07.14:618][106]LogActorFactory: Actor Factory created SM_Bush
+[2022.02.07-21.07.15:523][134]LogActorFactory: Actor Factory created SM_Bush
+[2022.02.07-21.07.41:478][933]Cmd: DUPLICATE
+[2022.02.07-21.07.41:478][933]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.07.53:505][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
+[2022.02.07-21.08.00:258][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush2)
+[2022.02.07-21.08.04:862][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
+[2022.02.07-21.08.06:185][696]Cmd: DUPLICATE
+[2022.02.07-21.08.06:185][696]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.08.19:014][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-21.08.19:036][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-21.08.19:037][ 92]PIE: New page: PIE session: TestArea (7 Feb 2022, 21:08:19)
+[2022.02.07-21.08.19:037][ 92]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.08.19:055][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017464s)
+[2022.02.07-21.08.19:056][ 92]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-21.08.19:057][ 92]LogPlayLevel: PIE: World Init took: (0.001991s)
+[2022.02.07-21.08.19:057][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.019710s)
+[2022.02.07-21.08.19:083][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.02.07-21.08.19:091][ 92]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.02.07-21.08.19:091][ 92]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-21.08.19:091][ 92]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-21.08.19:091][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-21.08.19:091][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-21.08.19:091][ 92]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-21.08.19:091][ 92]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-21.08.19:091][ 92]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-21.08.19:091][ 92]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-21.08.19:091][ 92]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-21.08.19:091][ 92]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-21.08.19:095][ 92]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-21.08.19:095][ 92]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-21.08.19:120][ 92]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-21.08.19:120][ 92]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-21.08.19:120][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-21.08.19:120][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-21.08.19:121][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-21.08.19:121][ 92]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-21.08.19:121][ 92]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-21.08.19:141][ 92]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-21.08.19:141][ 92]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-21.08.19:141][ 92]LogInit: FAudioDevice initialized.
+[2022.02.07-21.08.19:141][ 92]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestArea'.
+[2022.02.07-21.08.19:156][ 92]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-21.08.19:160][ 92]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-21.08.19
+[2022.02.07-21.08.19:160][ 92]LogWorld: Bringing up level for play took: 0.003655
+[2022.02.07-21.08.19:160][ 92]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.02.07-21.08.19:165][ 92]PIE: Server logged in
+[2022.02.07-21.08.19:166][ 92]PIE: Play in editor total start time 0.136 seconds.
+[2022.02.07-21.08.25:963][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.08.25:963][322]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.08.25:964][322]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-21.08.25:965][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.08.26:006][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-21.08.26:041][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.08.26:064][322]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.07-21.08.26:064][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.08.26:065][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.08.26:090][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.08.26:095][322]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2022.02.07-21.08.26:148][323]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.02.07-21.08.32:220][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2022.02.07-21.09.01:644][168]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-21.09.01:666][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-21.09.01:666][168]PIE: New page: PIE session: TestArea (7 Feb 2022, 21:09:01)
+[2022.02.07-21.09.01:666][168]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.09.01:683][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017067s)
+[2022.02.07-21.09.01:685][168]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-21.09.01:685][168]LogPlayLevel: PIE: World Init took: (0.001751s)
+[2022.02.07-21.09.01:685][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.019048s)
+[2022.02.07-21.09.01:713][168]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.02.07-21.09.01:720][168]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.02.07-21.09.01:720][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-21.09.01:720][168]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-21.09.01:720][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-21.09.01:720][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-21.09.01:720][168]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-21.09.01:720][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-21.09.01:720][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-21.09.01:720][168]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-21.09.01:720][168]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-21.09.01:720][168]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-21.09.01:724][168]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-21.09.01:724][168]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-21.09.01:748][168]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-21.09.01:748][168]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-21.09.01:749][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-21.09.01:749][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-21.09.01:749][168]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-21.09.01:750][168]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-21.09.01:750][168]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-21.09.01:770][168]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-21.09.01:770][168]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-21.09.01:770][168]LogInit: FAudioDevice initialized.
+[2022.02.07-21.09.01:770][168]LogAudio: Display: Audio Device (ID: 8) registered with world 'TestArea'.
+[2022.02.07-21.09.01:777][168]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-21.09.01:782][168]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-21.09.01
+[2022.02.07-21.09.01:783][168]LogWorld: Bringing up level for play took: 0.004764
+[2022.02.07-21.09.01:783][168]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.02.07-21.09.01:788][168]PIE: Server logged in
+[2022.02.07-21.09.01:789][168]PIE: Play in editor total start time 0.129 seconds.
+[2022.02.07-21.09.52:619][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.09.52:619][788]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.09.52:619][788]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-21.09.52:620][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.09.52:667][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-21.09.52:713][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.09.52:735][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.09.52:736][788]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.09.52:737][788]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.09.52:779][788]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.02.07-21.09.52:837][789]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.02.07-21.10.16:172][358]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-21.10.16:196][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-21.10.16:197][358]PIE: New page: PIE session: TestArea (7 Feb 2022, 21:10:16)
+[2022.02.07-21.10.16:197][358]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.10.16:215][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017842s)
+[2022.02.07-21.10.16:216][358]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-21.10.16:217][358]LogPlayLevel: PIE: World Init took: (0.001805s)
+[2022.02.07-21.10.16:217][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.019916s)
+[2022.02.07-21.10.16:244][358]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2022.02.07-21.10.16:253][358]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.02.07-21.10.16:253][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-21.10.16:253][358]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-21.10.16:253][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-21.10.16:253][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-21.10.16:253][358]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-21.10.16:253][358]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-21.10.16:253][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-21.10.16:253][358]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-21.10.16:253][358]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-21.10.16:254][358]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-21.10.16:257][358]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-21.10.16:257][358]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-21.10.16:281][358]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-21.10.16:281][358]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-21.10.16:281][358]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-21.10.16:281][358]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-21.10.16:282][358]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-21.10.16:282][358]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-21.10.16:282][358]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-21.10.16:302][358]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-21.10.16:302][358]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-21.10.16:302][358]LogInit: FAudioDevice initialized.
+[2022.02.07-21.10.16:302][358]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestArea'.
+[2022.02.07-21.10.16:312][358]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-21.10.16:317][358]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-21.10.16
+[2022.02.07-21.10.16:317][358]LogWorld: Bringing up level for play took: 0.003902
+[2022.02.07-21.10.16:317][358]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.02.07-21.10.16:322][358]PIE: Server logged in
+[2022.02.07-21.10.16:323][358]PIE: Play in editor total start time 0.132 seconds.
+[2022.02.07-21.10.29:622][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.10.29:622][734]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.10.29:622][734]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-21.10.29:624][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.10.29:664][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-21.10.29:736][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.10.29:763][734]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.07-21.10.29:763][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.10.29:764][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.10.29:788][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.10.29:792][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.02.07-21.10.29:851][735]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.02.07-21.10.37:032][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush2)
+[2022.02.07-21.10.53:671][421]Cmd: DUPLICATE
+[2022.02.07-21.10.53:672][421]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.11.07:882][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
+[2022.02.07-21.11.11:095][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x405)
+[2022.02.07-21.11.11:604][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
+[2022.02.07-21.11.30:313][492]Cmd: DUPLICATE
+[2022.02.07-21.11.30:313][492]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.12.04:845][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush2)
+[2022.02.07-21.12.06:141][504]Cmd: DUPLICATE
+[2022.02.07-21.12.06:141][504]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.12.20:354][831]LogActorFactory: Actor Factory created SM_Statue
+[2022.02.07-21.12.21:355][857]LogActorFactory: Actor Factory created SM_Statue
+[2022.02.07-21.12.29:557][ 71]Cmd: DELETE
+[2022.02.07-21.12.29:558][ 71]Cmd: ACTOR DELETE
+[2022.02.07-21.12.29:566][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.07-21.12.29:612][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2022.02.07-21.12.29:627][ 71]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2022.02.07-21.12.41:216][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush13)
+[2022.02.07-21.12.43:091][481]Cmd: DUPLICATE
+[2022.02.07-21.12.43:092][481]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.13.17:120][474]Cmd: TRANSACTION UNDO
+[2022.02.07-21.13.17:120][474]LogEditorTransaction: Undo Move Actors
+[2022.02.07-21.13.19:016][523]Cmd: DUPLICATE
+[2022.02.07-21.13.19:016][523]Cmd: ACTOR DUPLICATE
+[2022.02.07-21.13.40:945][142]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.07-21.13.40:965][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.07-21.13.40:966][142]PIE: New page: PIE session: TestArea (7 Feb 2022, 21:13:40)
+[2022.02.07-21.13.40:966][142]LogPlayLevel: Creating play world package: /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.13.40:985][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018735s)
+[2022.02.07-21.13.40:986][142]LogAIModule: Creating AISystem for world TestArea
+[2022.02.07-21.13.40:987][142]LogPlayLevel: PIE: World Init took: (0.001840s)
+[2022.02.07-21.13.40:987][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/TestArea.TestArea to /Game/Sara/UEDPIE_0_TestArea.TestArea (0.020817s)
+[2022.02.07-21.13.41:016][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2022.02.07-21.13.41:022][142]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.02.07-21.13.41:023][142]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.07-21.13.41:023][142]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.07-21.13.41:023][142]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.07-21.13.41:023][142]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.07-21.13.41:023][142]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.07-21.13.41:023][142]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.07-21.13.41:023][142]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.07-21.13.41:023][142]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.07-21.13.41:023][142]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.07-21.13.41:023][142]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.07-21.13.41:026][142]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.07-21.13.41:026][142]LogAudioMixer: Display: 1: FrontRight
+[2022.02.07-21.13.41:051][142]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.07-21.13.41:051][142]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.07-21.13.41:051][142]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.07-21.13.41:051][142]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.07-21.13.41:052][142]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.07-21.13.41:052][142]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.07-21.13.41:052][142]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.07-21.13.41:072][142]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.07-21.13.41:072][142]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.07-21.13.41:072][142]LogInit: FAudioDevice initialized.
+[2022.02.07-21.13.41:072][142]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestArea'.
+[2022.02.07-21.13.41:082][142]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.07-21.13.41:086][142]LogWorld: Bringing World /Game/Sara/UEDPIE_0_TestArea.TestArea up for play (max tick rate 60) at 2022.02.07-21.13.41
+[2022.02.07-21.13.41:086][142]LogWorld: Bringing up level for play took: 0.004102
+[2022.02.07-21.13.41:087][142]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.02.07-21.13.41:092][142]PIE: Server logged in
+[2022.02.07-21.13.41:093][142]PIE: Play in editor total start time 0.133 seconds.
+[2022.02.07-21.14.10:763][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.14.10:764][ 28]LogWorld: BeginTearingDown for /Game/Sara/UEDPIE_0_TestArea
+[2022.02.07-21.14.10:764][ 28]LogWorld: UWorld::CleanupWorld for TestArea, bSessionEnded=true, bCleanupResources=true
+[2022.02.07-21.14.10:765][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.14.10:822][ 28]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.07-21.14.10:858][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.07-21.14.10:881][ 28]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.07-21.14.10:881][ 28]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.14.10:883][ 28]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.07-21.14.10:907][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.07-21.14.10:911][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.02.07-21.14.10:967][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_19
