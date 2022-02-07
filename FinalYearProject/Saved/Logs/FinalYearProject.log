@@ -2129,3 +2129,26 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.07-21.16.14:881][775]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
 [2022.02.07-21.16.14:881][775]LogModuleManager: Shutting down and abandoning module XGEController (40)
 [2022.02.07-21.16.14:881][775]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.02.07-21.16.14:920][775]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.02.07-21.16.15:060][775]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.02.07-21.16.15:077][775]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.02.07-21.16.15:100][775]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.02.07-21.16.15:100][775]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.02.07-21.16.15:100][775]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.02.07-21.16.15:124][775]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.02.07-21.16.15:177][775]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.02.07-21.16.15:177][775]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.02.07-21.16.15:212][775]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.02.07-21.16.15:213][775]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.02.07-21.16.15:222][775]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.02.07-21.16.15:222][775]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.02.07-21.16.15:235][775]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.02.07-21.16.15:235][775]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.02.07-21.16.15:245][775]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.02.07-21.16.15:257][775]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.02.07-21.16.15:257][775]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.02.07-21.16.15:275][775]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.02.07-21.16.15:279][775]LogD3D11RHI: Shutdown
+[2022.02.07-21.16.15:279][775]LogD3D11RHI: CleanupD3DDevice
+[2022.02.07-21.16.15:675][775]LogExit: Exiting.
+[2022.02.07-21.16.15:966][775]Log file closed, 02/07/22 21:16:15
