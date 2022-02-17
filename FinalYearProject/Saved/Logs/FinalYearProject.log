@@ -2065,3 +2065,66 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.17-16.25.37:401][946]LogContentValidation: Display: Validating World /Game/Sara/Levels/MoralBad.MoralBad
 [2022.02.17-16.25.37:401][946]LogContentValidation: Display: Validating World /Game/Sara/Levels/Judgement.Judgement
 [2022.02.17-16.25.37:401][946]LogContentValidation: Display: Validating World /Game/Sara/Levels/MoralNeutral.MoralNeutral
+[2022.02.17-16.27.11:280][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2022.02.17-16.27.18:581][768]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.02.17-16.27.39:270][117]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.17-16.27.39:285][117]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.02.17-16.27.39:286][117]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2022.02.17-16.27.39:349][117]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2022.02.17-16.27.39:354][117]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (1 blueprints)
+[2022.02.17-16.27.39:354][117]PIE: New page: PIE session: Start (17 Feb 2022, 16:27:39)
+[2022.02.17-16.27.39:354][117]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.02.17-16.27.39:370][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016280s)
+[2022.02.17-16.27.39:371][117]LogAIModule: Creating AISystem for world Start
+[2022.02.17-16.27.39:372][117]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2022.02.17-16.27.39:372][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.017825s)
+[2022.02.17-16.27.39:395][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.02.17-16.27.39:395][117]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.02.17-16.27.39:395][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.17-16.27.39:395][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.17-16.27.39:395][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.17-16.27.39:395][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.17-16.27.39:395][117]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.17-16.27.39:395][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.17-16.27.39:395][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.17-16.27.39:395][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.17-16.27.39:396][117]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.17-16.27.39:396][117]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.17-16.27.39:399][117]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.17-16.27.39:399][117]LogAudioMixer: Display: 1: FrontRight
+[2022.02.17-16.27.39:423][117]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.17-16.27.39:423][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.17-16.27.39:423][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.17-16.27.39:423][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.17-16.27.39:424][117]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.17-16.27.39:424][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.17-16.27.39:424][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.17-16.27.39:447][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.17-16.27.39:447][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.17-16.27.39:447][117]LogInit: FAudioDevice initialized.
+[2022.02.17-16.27.39:447][117]LogAudio: Display: Audio Device (ID: 12) registered with world 'Start'.
+[2022.02.17-16.27.39:455][117]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.17-16.27.39:463][117]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 60) at 2022.02.17-16.27.39
+[2022.02.17-16.27.39:463][117]LogWorld: Bringing up level for play took: 0.007209
+[2022.02.17-16.27.39:463][117]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.02.17-16.27.39:469][117]PIE: Server logged in
+[2022.02.17-16.27.39:470][117]PIE: Play in editor total start time 0.189 seconds.
+[2022.02.17-16.28.00:679][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.17-16.28.00:679][696]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.02.17-16.28.00:679][696]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.02.17-16.28.00:681][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.17-16.28.00:697][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.17-16.28.00:711][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.17-16.28.00:729][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.17-16.28.00:730][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.17-16.28.00:731][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.17-16.28.00:761][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2022.02.17-16.28.00:797][697]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.02.17-16.29.20:466][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.02.17-16.30.10:625][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.02.17-16.30.17:691][127]LogEditorViewport: Clicking on Actor (LMB): Guardian_C (Guardian)
+[2022.02.17-16.30.21:432][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.02.17-16.30.21:505][247]LogSavePackage: Moving '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/Start1C0B86EB46B90F04F7C67FA2A40A0F1A.tmp' to '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Content/Sara/Levels/Start.umap'
+[2022.02.17-16.30.21:542][247]AssetCheck: New page: Asset Save: Start
+[2022.02.17-16.30.21:542][247]LogContentValidation: Display: Validating World /Game/Sara/Levels/Start.Start
+[2022.02.17-16.30.23:490][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
