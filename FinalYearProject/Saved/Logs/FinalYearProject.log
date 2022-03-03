@@ -3764,3 +3764,27 @@ ThirdPersonCharacter_C.InpActEvt_Interact_K2Node_InputActionEvent_0
 [2022.03.03-23.55.56:052][859]AssetCheck: New page: Asset Save: multiple assets
 [2022.03.03-23.55.56:052][859]LogContentValidation: Display: Validating Material /Game/Sara/Material/Red.Red
 [2022.03.03-23.55.56:052][859]LogContentValidation: Display: Validating Material /Game/Sara/Material/Blue.Blue
+[2022.03.03-23.57.39:625][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.03.03-23.57.42:685][181]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.03.03-23.57.42:685][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.03-23.57.51:535][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.03.03-23.57.51:535][181]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.03.03-23.57.51:536][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.03-23.57.55:759][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.03.03-23.57.55:759][181]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.03.03-23.57.55:759][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.03-23.57.57:763][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.03.03-23.57.57:763][181]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.03.03-23.57.57:763][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.03-23.58.02:886][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.03.03-23.58.02:886][181]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.03.03-23.58.02:886][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.03-23.58.03:363][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.03.03-23.58.03:363][181]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.03.03-23.58.03:363][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.03-23.58.03:445][181]LogSlate: Window 'Yellow' being destroyed
+[2022.03.03-23.58.03:557][181]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.03.03-23.58.03:557][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.03-23.58.04:298][181]LogSlate: Window 'FinalYearProject - Unreal Editor' being destroyed
+[2022.03.03-23.58.12:513][182]Cmd: QUIT_EDITOR
+[2022.03.03-23.58.12:536][182]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
