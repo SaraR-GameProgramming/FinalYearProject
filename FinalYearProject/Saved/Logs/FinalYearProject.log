@@ -1568,3 +1568,1519 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.29-15.46.17:955][472]LogContentValidation: Display: Validating WidgetBlueprint /Game/Sara/UserInterface/HeadsUpDisplay.HeadsUpDisplay
 [2022.04.29-16.32.57:763][145]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
 [2022.04.29-16.33.03:376][401]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.29-17.11.16:749][543]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian05FCBDAA493427DF53BC84874435DF45.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.11.16:772][543]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.11.16:772][543]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.11.18:234][632]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.11.18:245][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.11.18:245][632]PIE: New page: PIE session: Start (29 Apr 2022, 19:11:18)
+[2022.04.29-17.11.18:245][632]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.11.18:260][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014450s)
+[2022.04.29-17.11.18:261][632]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.11.18:261][632]LogPlayLevel: PIE: World Init took: (0.001388s)
+[2022.04.29-17.11.18:261][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015987s)
+[2022.04.29-17.11.18:307][632]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
+[2022.04.29-17.11.18:311][632]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.04.29-17.11.18:311][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.11.18:311][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.11.18:311][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.11.18:311][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.11.18:311][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.11.18:311][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.11.18:311][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.11.18:311][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.11.18:311][632]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.11.18:311][632]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.11.18:327][632]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.11.18:327][632]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.11.18:371][632]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.11.18:371][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.11.18:372][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.11.18:372][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.11.18:372][632]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.11.18:372][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.11.18:372][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.11.18:387][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.11.18:387][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.11.18:387][632]LogInit: FAudioDevice initialized.
+[2022.04.29-17.11.18:387][632]LogAudio: Display: Audio Device (ID: 14) registered with world 'Start'.
+[2022.04.29-17.11.18:436][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.11.18:436][632]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.11.18:444][632]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.11.18
+[2022.04.29-17.11.18:445][632]LogWorld: Bringing up level for play took: 0.008162
+[2022.04.29-17.11.18:445][632]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.04.29-17.11.18:460][632]PIE: Server logged in
+[2022.04.29-17.11.18:468][632]PIE: Play in editor total start time 0.229 seconds.
+[2022.04.29-17.11.24:849][975]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.11.24:849][975]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.11.24:849][975]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.13.10:388][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.13.10:388][712]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.13.10:389][712]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.13.10:397][712]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.13.10:398][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.13.10:409][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.13.10:421][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.13.10:465][712]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.29-17.13.10:465][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.13.10:466][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.13.10:496][712]LogUObjectHash: Compacting FUObjectHashTables data took   6.44ms
+[2022.04.29-17.13.10:528][713]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.04.29-17.13.27:650][211]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.13.27:662][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.13.27:662][211]PIE: New page: PIE session: Start (29 Apr 2022, 19:13:27)
+[2022.04.29-17.13.27:662][211]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.13.27:677][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014443s)
+[2022.04.29-17.13.27:678][211]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.13.27:678][211]LogPlayLevel: PIE: World Init took: (0.001208s)
+[2022.04.29-17.13.27:678][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015807s)
+[2022.04.29-17.13.27:722][211]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2022.04.29-17.13.27:724][211]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.04.29-17.13.27:724][211]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.13.27:724][211]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.13.27:724][211]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.13.27:724][211]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.13.27:724][211]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.13.27:724][211]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.13.27:724][211]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.13.27:724][211]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.13.27:725][211]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.13.27:725][211]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.13.27:738][211]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.13.27:738][211]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.13.27:781][211]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.13.27:781][211]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.13.27:781][211]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.13.27:781][211]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.13.27:781][211]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.13.27:781][211]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.13.27:781][211]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.13.27:795][211]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.13.27:795][211]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.13.27:796][211]LogInit: FAudioDevice initialized.
+[2022.04.29-17.13.27:796][211]LogAudio: Display: Audio Device (ID: 15) registered with world 'Start'.
+[2022.04.29-17.13.27:842][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.13.27:842][211]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.13.27:849][211]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.13.27
+[2022.04.29-17.13.27:850][211]LogWorld: Bringing up level for play took: 0.007562
+[2022.04.29-17.13.27:850][211]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.04.29-17.13.27:863][211]PIE: Server logged in
+[2022.04.29-17.13.27:871][211]PIE: Play in editor total start time 0.214 seconds.
+[2022.04.29-17.13.34:268][710]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.13.34:268][710]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.13.34:268][710]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.13.59:077][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.13.59:077][733]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.13.59:078][733]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.13.59:083][733]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.13.59:084][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.13.59:090][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.13.59:099][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.13.59:138][733]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.29-17.13.59:138][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.13.59:139][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.13.59:167][733]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2022.04.29-17.13.59:202][734]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.04.29-17.14.11:354][916]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardianC70904EC473B355089610CAA220B27D3.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.14.11:372][916]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.14.11:372][916]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.14.13:171][ 93]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.14.13:182][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.14.13:182][ 93]PIE: New page: PIE session: Start (29 Apr 2022, 19:14:13)
+[2022.04.29-17.14.13:182][ 93]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.14.13:197][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014539s)
+[2022.04.29-17.14.13:198][ 93]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.14.13:198][ 93]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2022.04.29-17.14.13:198][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015921s)
+[2022.04.29-17.14.13:242][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2022.04.29-17.14.13:244][ 93]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.04.29-17.14.13:244][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.14.13:244][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.14.13:244][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.14.13:244][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.14.13:244][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.14.13:244][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.14.13:244][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.14.13:244][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.14.13:245][ 93]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.14.13:245][ 93]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.14.13:259][ 93]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.14.13:259][ 93]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.14.13:302][ 93]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.14.13:303][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.14.13:303][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.14.13:303][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.14.13:303][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.14.13:303][ 93]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.14.13:303][ 93]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.14.13:316][ 93]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.14.13:316][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.14.13:316][ 93]LogInit: FAudioDevice initialized.
+[2022.04.29-17.14.13:316][ 93]LogAudio: Display: Audio Device (ID: 16) registered with world 'Start'.
+[2022.04.29-17.14.13:362][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.14.13:362][ 93]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.14.13:369][ 93]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.14.13
+[2022.04.29-17.14.13:370][ 93]LogWorld: Bringing up level for play took: 0.006918
+[2022.04.29-17.14.13:370][ 93]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.04.29-17.14.13:384][ 93]PIE: Server logged in
+[2022.04.29-17.14.13:392][ 93]PIE: Play in editor total start time 0.215 seconds.
+[2022.04.29-17.14.18:672][548]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.14.18:672][548]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.14.18:672][548]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.14.36:427][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.14.36:427][148]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.14.36:428][148]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.14.36:430][148]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.14.36:432][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.14.36:441][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.14.36:450][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.14.36:488][148]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.14.36:489][148]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.14.36:517][148]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2022.04.29-17.14.36:551][149]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.04.29-17.14.44:281][852]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardianC6DC866A453AE07051692F97857FFD40.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.14.44:298][852]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.14.44:298][852]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.14.45:255][933]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.14.45:267][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.14.45:267][933]PIE: New page: PIE session: Start (29 Apr 2022, 19:14:45)
+[2022.04.29-17.14.45:267][933]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.14.45:281][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013717s)
+[2022.04.29-17.14.45:281][933]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.14.45:281][933]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2022.04.29-17.14.45:281][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015129s)
+[2022.04.29-17.14.45:326][933]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2022.04.29-17.14.45:328][933]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.04.29-17.14.45:328][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.14.45:328][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.14.45:328][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.14.45:328][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.14.45:328][933]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.14.45:328][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.14.45:328][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.14.45:328][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.14.45:328][933]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.14.45:328][933]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.14.45:342][933]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.14.45:342][933]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.14.45:383][933]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.14.45:383][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.14.45:383][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.14.45:383][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.14.45:383][933]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.14.45:384][933]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.14.45:384][933]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.14.45:398][933]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.14.45:398][933]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.14.45:398][933]LogInit: FAudioDevice initialized.
+[2022.04.29-17.14.45:398][933]LogAudio: Display: Audio Device (ID: 17) registered with world 'Start'.
+[2022.04.29-17.14.45:457][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.14.45:457][933]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.14.45:464][933]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.14.45
+[2022.04.29-17.14.45:465][933]LogWorld: Bringing up level for play took: 0.007247
+[2022.04.29-17.14.45:465][933]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.04.29-17.14.45:477][933]PIE: Server logged in
+[2022.04.29-17.14.45:485][933]PIE: Play in editor total start time 0.224 seconds.
+[2022.04.29-17.14.49:662][276]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.14.49:662][276]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.14.49:662][276]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.15.10:578][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.15.10:578][995]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.15.10:578][995]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.15.10:581][995]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.15.10:582][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.15.10:590][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.15.10:598][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.15.10:643][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.15.10:644][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.15.10:673][995]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2022.04.29-17.15.10:714][996]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.04.29-17.15.17:691][600]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian72259071458980B7DB19D4BC8622D414.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.15.17:713][600]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.15.17:713][600]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.15.18:784][693]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.15.18:795][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.15.18:795][693]PIE: New page: PIE session: Start (29 Apr 2022, 19:15:18)
+[2022.04.29-17.15.18:795][693]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.15.18:809][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013698s)
+[2022.04.29-17.15.18:810][693]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.15.18:810][693]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2022.04.29-17.15.18:810][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.014980s)
+[2022.04.29-17.15.18:853][693]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2022.04.29-17.15.18:855][693]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.04.29-17.15.18:855][693]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.15.18:855][693]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.15.18:855][693]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.15.18:855][693]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.15.18:855][693]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.15.18:855][693]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.15.18:855][693]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.15.18:855][693]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.15.18:856][693]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.15.18:856][693]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.15.18:869][693]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.15.18:869][693]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.15.18:911][693]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.15.18:911][693]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.15.18:911][693]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.15.18:911][693]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.15.18:912][693]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.15.18:912][693]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.15.18:912][693]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.15.18:926][693]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.15.18:926][693]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.15.18:926][693]LogInit: FAudioDevice initialized.
+[2022.04.29-17.15.18:926][693]LogAudio: Display: Audio Device (ID: 18) registered with world 'Start'.
+[2022.04.29-17.15.18:983][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.15.18:983][693]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.15.18:990][693]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.15.18
+[2022.04.29-17.15.18:991][693]LogWorld: Bringing up level for play took: 0.007427
+[2022.04.29-17.15.18:991][693]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.04.29-17.15.19:003][693]PIE: Server logged in
+[2022.04.29-17.15.19:011][693]PIE: Play in editor total start time 0.221 seconds.
+[2022.04.29-17.15.22:846][997]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.15.22:846][997]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.15.22:846][997]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.19.08:006][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.19.08:006][537]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.19.08:006][537]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.19.08:009][537]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.19.08:010][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.19.08:016][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.19.08:026][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.19.08:065][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.19.08:066][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.19.08:096][537]LogUObjectHash: Compacting FUObjectHashTables data took   7.02ms
+[2022.04.29-17.19.08:143][538]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.04.29-17.19.12:929][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x404)
+[2022.04.29-17.19.38:438][756]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2022.04.29-17.19.38:549][756]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/Start_Auto3FBB272D246D56BD22F3EF98F3F559E5C.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/Autosaves/Game/Sara/Levels/Start_Auto3.umap'
+[2022.04.29-17.19.38:551][756]LogFileHelpers: No new changes to save!
+[2022.04.29-17.19.38:552][756]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sara/Levels/Start' took 0.157
+[2022.04.29-17.19.38:552][756]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.157
+[2022.04.29-17.30.46:181][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.04.29-17.30.46:184][215]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sara/Levels/Start' took 0.047
+[2022.04.29-17.30.46:184][215]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian] ([1] browsable assets)...
+[2022.04.29-17.30.46:184][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian]
+[2022.04.29-17.30.46:418][215]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian_Auto4F4245A604BD27BDEE203BA9F4452D3FE.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/Autosaves/Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian_Auto4.uasset'
+[2022.04.29-17.30.46:420][215]LogFileHelpers: Auto-saving content packages took 0.238
+[2022.04.29-17.35.36:546][972]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.29-17.37.55:376][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_115.BTComposite_Sequence_83"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_256.ResponceCheck_C_122"'))'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_256.ResponceCheck_C_122"'))'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_116.BTComposite_Sequence_82"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_257.ResponceCheck_C_123"'))'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_257.ResponceCheck_C_123"'))'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_117.BTComposite_Sequence_81"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_258.ResponceCheck_C_124"'))'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_258.ResponceCheck_C_124"'))'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_118.BTComposite_Sequence_80"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_259.ResponceCheck_C_125"'))'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_259.ResponceCheck_C_125"'))'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_228.DisplayText_C_144"')'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'AskQuestion_C'"BehaviorTreeGraphNode_Task_229.AskQuestion_C_10"')'
+[2022.04.29-17.37.55:377][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"')'
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_114.BTComposite_Selector_26"''
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_230.DisplayText_C_143"')'
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'AskQuestion_C'"BehaviorTreeGraphNode_Task_233.AskQuestion_C_9"')'
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"')'
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_114.BTComposite_Selector_26"''
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_231.DisplayText_C_142"')'
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'AskQuestion_C'"BehaviorTreeGraphNode_Task_234.AskQuestion_C_8"')'
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"')'
+[2022.04.29-17.37.55:378][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_114.BTComposite_Selector_26"''
+[2022.04.29-17.37.55:379][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_232.DisplayText_C_141"')'
+[2022.04.29-17.37.55:379][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'AskQuestion_C'"BehaviorTreeGraphNode_Task_235.AskQuestion_C_7"')'
+[2022.04.29-17.37.55:379][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"')'
+[2022.04.29-17.37.55:379][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_114.BTComposite_Selector_26"''
+[2022.04.29-17.37.55:379][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_115.BTComposite_Sequence_83"''
+[2022.04.29-17.37.55:380][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_115.BTComposite_Sequence_83"''
+[2022.04.29-17.37.55:380][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_116.BTComposite_Sequence_82"''
+[2022.04.29-17.37.55:380][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_117.BTComposite_Sequence_81"''
+[2022.04.29-17.37.55:380][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_118.BTComposite_Sequence_80"''
+[2022.04.29-17.37.55:381][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_116.BTComposite_Sequence_82"''
+[2022.04.29-17.37.55:381][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_117.BTComposite_Sequence_81"''
+[2022.04.29-17.37.55:381][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_118.BTComposite_Sequence_80"''
+[2022.04.29-17.37.55:381][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_120.BTComposite_Sequence_79"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_260.ResponceCheck_C_126"'))'
+[2022.04.29-17.37.55:381][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_260.ResponceCheck_C_126"'))'
+[2022.04.29-17.37.55:381][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_121.BTComposite_Sequence_78"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_261.ResponceCheck_C_127"'))'
+[2022.04.29-17.37.55:381][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_261.ResponceCheck_C_127"'))'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_122.BTComposite_Sequence_77"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_262.ResponceCheck_C_128"'))'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_262.ResponceCheck_C_128"'))'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_123.BTComposite_Sequence_76"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_263.ResponceCheck_C_129"'))'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_263.ResponceCheck_C_129"'))'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_115.BTComposite_Sequence_83"''
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_236.DisplayText_C_140"')'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_247.DisplayText_C_133"')'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_240.EndDialogue_C_61"')'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"''
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_238.DisplayText_C_138"')'
+[2022.04.29-17.37.55:382][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_246.DisplayText_C_134"')'
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_242.EndDialogue_C_59"')'
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"''
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_237.DisplayText_C_139"')'
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_245.DisplayText_C_135"')'
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_241.EndDialogue_C_60"')'
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"''
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_239.DisplayText_C_137"')'
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_244.DisplayText_C_136"')'
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_243.EndDialogue_C_58"')'
+[2022.04.29-17.37.55:383][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"''
+[2022.04.29-17.37.55:384][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_120.BTComposite_Sequence_79"''
+[2022.04.29-17.37.55:384][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_122.BTComposite_Sequence_77"''
+[2022.04.29-17.37.55:384][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_121.BTComposite_Sequence_78"''
+[2022.04.29-17.37.55:384][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_123.BTComposite_Sequence_76"''
+[2022.04.29-17.37.55:385][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_120.BTComposite_Sequence_79"''
+[2022.04.29-17.37.55:385][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_122.BTComposite_Sequence_77"''
+[2022.04.29-17.37.55:385][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_121.BTComposite_Sequence_78"''
+[2022.04.29-17.37.55:385][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_123.BTComposite_Sequence_76"''
+[2022.04.29-17.37.55:385][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_123.BTComposite_Sequence_76"''
+[2022.04.29-17.37.55:386][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_122.BTComposite_Sequence_77"''
+[2022.04.29-17.37.55:386][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_121.BTComposite_Sequence_78"''
+[2022.04.29-17.37.55:386][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_120.BTComposite_Sequence_79"''
+[2022.04.29-17.37.55:386][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_130.BTComposite_Sequence_71"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_268.ResponceCheck_C_134"'))'
+[2022.04.29-17.37.55:386][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_268.ResponceCheck_C_134"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_131.BTComposite_Sequence_70"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_269.ResponceCheck_C_135"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_269.ResponceCheck_C_135"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_132.BTComposite_Sequence_69"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_270.ResponceCheck_C_136"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_270.ResponceCheck_C_136"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_133.BTComposite_Sequence_68"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_271.ResponceCheck_C_137"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_271.ResponceCheck_C_137"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_117.BTComposite_Sequence_81"''
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_126.BTComposite_Sequence_75"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_264.ResponceCheck_C_130"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_264.ResponceCheck_C_130"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_127.BTComposite_Sequence_74"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_265.ResponceCheck_C_131"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_265.ResponceCheck_C_131"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_128.BTComposite_Sequence_73"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_266.ResponceCheck_C_132"'))'
+[2022.04.29-17.37.55:387][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_266.ResponceCheck_C_132"'))'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_129.BTComposite_Sequence_72"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_267.ResponceCheck_C_133"'))'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_267.ResponceCheck_C_133"'))'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_116.BTComposite_Sequence_82"''
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_248.DisplayText_C_132"')'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_259.DisplayText_C_125"')'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_252.EndDialogue_C_57"')'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"''
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_250.DisplayText_C_130"')'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_258.DisplayText_C_126"')'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_254.EndDialogue_C_55"')'
+[2022.04.29-17.37.55:388][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"''
+[2022.04.29-17.37.55:389][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_249.DisplayText_C_131"')'
+[2022.04.29-17.37.55:389][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_257.DisplayText_C_127"')'
+[2022.04.29-17.37.55:389][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_253.EndDialogue_C_56"')'
+[2022.04.29-17.37.55:389][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"''
+[2022.04.29-17.37.55:389][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_251.DisplayText_C_129"')'
+[2022.04.29-17.37.55:389][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_256.DisplayText_C_128"')'
+[2022.04.29-17.37.55:389][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_255.EndDialogue_C_54"')'
+[2022.04.29-17.37.55:389][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"''
+[2022.04.29-17.37.55:390][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_126.BTComposite_Sequence_75"''
+[2022.04.29-17.37.55:390][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_128.BTComposite_Sequence_73"''
+[2022.04.29-17.37.55:390][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_127.BTComposite_Sequence_74"''
+[2022.04.29-17.37.55:390][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_129.BTComposite_Sequence_72"''
+[2022.04.29-17.37.55:390][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_126.BTComposite_Sequence_75"''
+[2022.04.29-17.37.55:391][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_128.BTComposite_Sequence_73"''
+[2022.04.29-17.37.55:391][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_127.BTComposite_Sequence_74"''
+[2022.04.29-17.37.55:391][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_129.BTComposite_Sequence_72"''
+[2022.04.29-17.37.55:391][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_129.BTComposite_Sequence_72"''
+[2022.04.29-17.37.55:392][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_128.BTComposite_Sequence_73"''
+[2022.04.29-17.37.55:392][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_127.BTComposite_Sequence_74"''
+[2022.04.29-17.37.55:392][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_126.BTComposite_Sequence_75"''
+[2022.04.29-17.37.55:392][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_260.DisplayText_C_124"')'
+[2022.04.29-17.37.55:392][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_271.DisplayText_C_117"')'
+[2022.04.29-17.37.55:392][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_264.EndDialogue_C_53"')'
+[2022.04.29-17.37.55:392][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"''
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_262.DisplayText_C_122"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_270.DisplayText_C_118"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_266.EndDialogue_C_51"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"''
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_261.DisplayText_C_123"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_269.DisplayText_C_119"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_265.EndDialogue_C_52"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"''
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_263.DisplayText_C_121"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_268.DisplayText_C_120"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_267.EndDialogue_C_50"')'
+[2022.04.29-17.37.55:393][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"''
+[2022.04.29-17.37.55:394][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_130.BTComposite_Sequence_71"''
+[2022.04.29-17.37.55:394][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_132.BTComposite_Sequence_69"''
+[2022.04.29-17.37.55:394][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_131.BTComposite_Sequence_70"''
+[2022.04.29-17.37.55:394][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_133.BTComposite_Sequence_68"''
+[2022.04.29-17.37.55:395][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_130.BTComposite_Sequence_71"''
+[2022.04.29-17.37.55:395][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_132.BTComposite_Sequence_69"''
+[2022.04.29-17.37.55:395][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_131.BTComposite_Sequence_70"''
+[2022.04.29-17.37.55:395][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_133.BTComposite_Sequence_68"''
+[2022.04.29-17.37.55:396][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_133.BTComposite_Sequence_68"''
+[2022.04.29-17.37.55:396][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_132.BTComposite_Sequence_69"''
+[2022.04.29-17.37.55:396][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_131.BTComposite_Sequence_70"''
+[2022.04.29-17.37.55:396][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_130.BTComposite_Sequence_71"''
+[2022.04.29-17.37.55:396][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_272.DisplayText_C_116"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_283.DisplayText_C_109"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_276.EndDialogue_C_49"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"''
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_274.DisplayText_C_114"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_282.DisplayText_C_110"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_278.EndDialogue_C_47"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"''
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_273.DisplayText_C_115"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_281.DisplayText_C_111"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_277.EndDialogue_C_48"')'
+[2022.04.29-17.37.55:397][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"''
+[2022.04.29-17.37.55:398][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_275.DisplayText_C_113"')'
+[2022.04.29-17.37.55:398][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'DisplayText_C'"BehaviorTreeGraphNode_Task_280.DisplayText_C_112"')'
+[2022.04.29-17.37.55:398][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to 'EndDialogue_C'"BehaviorTreeGraphNode_Task_279.EndDialogue_C_30"')'
+[2022.04.29-17.37.55:398][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"''
+[2022.04.29-17.37.55:398][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_134.BTComposite_Sequence_67"''
+[2022.04.29-17.37.55:398][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_136.BTComposite_Sequence_65"''
+[2022.04.29-17.37.55:398][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_135.BTComposite_Sequence_66"''
+[2022.04.29-17.37.55:399][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_137.BTComposite_Sequence_64"''
+[2022.04.29-17.37.55:399][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_134.BTComposite_Sequence_67"''
+[2022.04.29-17.37.55:399][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_136.BTComposite_Sequence_65"''
+[2022.04.29-17.37.55:399][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_135.BTComposite_Sequence_66"''
+[2022.04.29-17.37.55:400][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_137.BTComposite_Sequence_64"''
+[2022.04.29-17.37.55:400][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_137.BTComposite_Sequence_64"''
+[2022.04.29-17.37.55:400][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_136.BTComposite_Sequence_65"''
+[2022.04.29-17.37.55:400][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_135.BTComposite_Sequence_66"''
+[2022.04.29-17.37.55:400][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_134.BTComposite_Sequence_67"''
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_134.BTComposite_Sequence_67"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_272.ResponceCheck_C_138"'))'
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_272.ResponceCheck_C_138"'))'
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_135.BTComposite_Sequence_66"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_273.ResponceCheck_C_139"'))'
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_273.ResponceCheck_C_139"'))'
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_136.BTComposite_Sequence_65"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_274.ResponceCheck_C_140"'))'
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_274.ResponceCheck_C_140"'))'
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildComposite: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_137.BTComposite_Sequence_64"',Decorators=(ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_275.ResponceCheck_C_141"'))'
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:Decorators.Decorators: unresolved reference to 'ResponceCheck_C'"BehaviorTreeGraphNode_Decorator_275.ResponceCheck_C_141"'))'
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Sequence'"BehaviorTreeGraphNode_Composite_118.BTComposite_Sequence_80"''
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_114.BTComposite_Selector_26"''
+[2022.04.29-17.37.55:401][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_114.BTComposite_Selector_26"''
+[2022.04.29-17.37.55:402][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_114.BTComposite_Selector_26"''
+[2022.04.29-17.37.55:402][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_114.BTComposite_Selector_26"''
+[2022.04.29-17.37.55:402][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"''
+[2022.04.29-17.37.55:402][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"''
+[2022.04.29-17.37.55:402][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"''
+[2022.04.29-17.37.55:402][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_119.BTComposite_Selector_25"''
+[2022.04.29-17.37.55:403][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"''
+[2022.04.29-17.37.55:403][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"''
+[2022.04.29-17.37.55:403][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"''
+[2022.04.29-17.37.55:403][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_125.BTComposite_Selector_23"''
+[2022.04.29-17.37.55:403][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"''
+[2022.04.29-17.37.55:404][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"''
+[2022.04.29-17.37.55:404][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"''
+[2022.04.29-17.37.55:404][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_124.BTComposite_Selector_24"''
+[2022.04.29-17.37.55:404][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"''
+[2022.04.29-17.37.55:404][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"''
+[2022.04.29-17.37.55:405][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"''
+[2022.04.29-17.37.55:405][374]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to 'BTComposite_Selector'"BehaviorTreeGraphNode_Composite_138.BTComposite_Selector_22"''
+[2022.04.29-17.39.59:476][ 53]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian67AD1CE5488F67779FBFD1A018DF011A.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.39.59:497][ 53]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.39.59:497][ 53]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.40.01:780][233]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.40.01:792][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.40.01:792][233]PIE: New page: PIE session: Start (29 Apr 2022, 19:40:01)
+[2022.04.29-17.40.01:792][233]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.40.01:806][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014365s)
+[2022.04.29-17.40.01:808][233]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.40.01:808][233]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2022.04.29-17.40.01:808][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015888s)
+[2022.04.29-17.40.01:856][233]LogUObjectHash: Compacting FUObjectHashTables data took   6.85ms
+[2022.04.29-17.40.01:860][233]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.04.29-17.40.01:860][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.40.01:860][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.40.01:860][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.40.01:860][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.40.01:860][233]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.40.01:860][233]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.40.01:860][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.40.01:860][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.40.01:861][233]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.40.01:861][233]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.40.01:877][233]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.40.01:877][233]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.40.01:922][233]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.40.01:922][233]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.40.01:922][233]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.40.01:922][233]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.40.01:923][233]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.40.01:923][233]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.40.01:923][233]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.40.01:936][233]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.40.01:937][233]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.40.01:937][233]LogInit: FAudioDevice initialized.
+[2022.04.29-17.40.01:937][233]LogAudio: Display: Audio Device (ID: 19) registered with world 'Start'.
+[2022.04.29-17.40.01:996][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.40.01:996][233]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.40.02:003][233]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.40.02
+[2022.04.29-17.40.02:004][233]LogWorld: Bringing up level for play took: 0.007271
+[2022.04.29-17.40.02:004][233]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.04.29-17.40.02:017][233]PIE: Server logged in
+[2022.04.29-17.40.02:025][233]PIE: Play in editor total start time 0.238 seconds.
+[2022.04.29-17.40.07:893][701]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.40.07:893][701]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.40.07:893][701]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.40.23:433][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.40.23:433][896]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.40.23:433][896]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.40.23:436][896]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.40.23:438][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.40.23:444][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.40.23:470][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.40.23:509][896]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.29-17.40.23:509][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.40.23:510][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.40.23:538][896]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2022.04.29-17.40.23:605][897]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.04.29-17.40.32:382][627]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian61186F2D41751B7360DE70A346907398.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.40.32:399][627]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.40.32:400][627]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.40.34:290][775]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.40.34:301][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.40.34:302][775]PIE: New page: PIE session: Start (29 Apr 2022, 19:40:34)
+[2022.04.29-17.40.34:302][775]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.40.34:315][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013469s)
+[2022.04.29-17.40.34:316][775]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.40.34:316][775]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2022.04.29-17.40.34:316][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.014852s)
+[2022.04.29-17.40.34:358][775]LogUObjectHash: Compacting FUObjectHashTables data took   6.53ms
+[2022.04.29-17.40.34:360][775]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.04.29-17.40.34:360][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.40.34:360][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.40.34:360][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.40.34:360][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.40.34:360][775]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.40.34:360][775]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.40.34:360][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.40.34:360][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.40.34:361][775]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.40.34:361][775]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.40.34:374][775]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.40.34:374][775]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.40.34:416][775]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.40.34:416][775]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.40.34:416][775]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.40.34:416][775]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.40.34:417][775]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.40.34:417][775]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.40.34:417][775]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.40.34:430][775]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.40.34:430][775]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.40.34:430][775]LogInit: FAudioDevice initialized.
+[2022.04.29-17.40.34:430][775]LogAudio: Display: Audio Device (ID: 20) registered with world 'Start'.
+[2022.04.29-17.40.34:487][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.40.34:488][775]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.40.34:495][775]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.40.34
+[2022.04.29-17.40.34:496][775]LogWorld: Bringing up level for play took: 0.007505
+[2022.04.29-17.40.34:496][775]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.04.29-17.40.34:508][775]PIE: Server logged in
+[2022.04.29-17.40.34:516][775]PIE: Play in editor total start time 0.22 seconds.
+[2022.04.29-17.40.38:612][150]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.40.38:612][150]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.40.38:612][150]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.40.55:281][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.40.55:281][687]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.40.55:282][687]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.40.55:285][687]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.40.55:286][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.40.55:295][687]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.40.55:321][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.40.55:361][687]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.40.55:362][687]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.40.55:390][687]LogUObjectHash: Compacting FUObjectHashTables data took   6.47ms
+[2022.04.29-17.40.55:438][688]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.04.29-17.41.01:525][185]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian840EEEE841439D0B791FB7BFEC827BCA.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.41.01:542][185]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.41.01:542][185]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.41.02:350][251]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.41.02:361][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.41.02:361][251]PIE: New page: PIE session: Start (29 Apr 2022, 19:41:02)
+[2022.04.29-17.41.02:362][251]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.41.02:376][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013962s)
+[2022.04.29-17.41.02:377][251]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.41.02:377][251]LogPlayLevel: PIE: World Init took: (0.001406s)
+[2022.04.29-17.41.02:377][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015526s)
+[2022.04.29-17.41.02:419][251]LogUObjectHash: Compacting FUObjectHashTables data took   6.46ms
+[2022.04.29-17.41.02:421][251]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.04.29-17.41.02:421][251]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.41.02:421][251]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.41.02:421][251]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.41.02:421][251]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.41.02:421][251]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.41.02:421][251]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.41.02:421][251]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.41.02:421][251]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.41.02:421][251]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.41.02:421][251]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.41.02:435][251]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.41.02:435][251]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.41.02:477][251]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.41.02:478][251]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.41.02:478][251]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.41.02:478][251]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.41.02:478][251]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.41.02:478][251]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.41.02:478][251]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.41.02:492][251]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.41.02:492][251]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.41.02:492][251]LogInit: FAudioDevice initialized.
+[2022.04.29-17.41.02:492][251]LogAudio: Display: Audio Device (ID: 21) registered with world 'Start'.
+[2022.04.29-17.41.02:527][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.41.02:528][251]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.41.02:535][251]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.41.02
+[2022.04.29-17.41.02:536][251]LogWorld: Bringing up level for play took: 0.007452
+[2022.04.29-17.41.02:536][251]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.04.29-17.41.02:549][251]PIE: Server logged in
+[2022.04.29-17.41.02:557][251]PIE: Play in editor total start time 0.2 seconds.
+[2022.04.29-17.41.06:944][654]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.41.06:944][654]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.41.06:944][654]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.41.23:232][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.41.23:232][ 30]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.41.23:232][ 30]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.41.23:235][ 30]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.41.23:236][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.41.23:246][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.41.23:272][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.41.23:311][ 30]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.29-17.41.23:312][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.41.23:313][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.41.23:343][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   6.42ms
+[2022.04.29-17.41.23:395][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.04.29-17.41.35:355][ 46]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian35A155394C4C6F5C6AEFC9957A632581.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.41.35:374][ 46]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.41.35:374][ 46]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.41.36:643][145]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.41.36:654][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.41.36:655][145]PIE: New page: PIE session: Start (29 Apr 2022, 19:41:36)
+[2022.04.29-17.41.36:655][145]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.41.36:669][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013884s)
+[2022.04.29-17.41.36:670][145]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.41.36:670][145]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2022.04.29-17.41.36:670][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015263s)
+[2022.04.29-17.41.36:713][145]LogUObjectHash: Compacting FUObjectHashTables data took   6.28ms
+[2022.04.29-17.41.36:715][145]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.04.29-17.41.36:715][145]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.41.36:715][145]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.41.36:715][145]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.41.36:715][145]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.41.36:715][145]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.41.36:715][145]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.41.36:715][145]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.41.36:715][145]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.41.36:716][145]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.41.36:716][145]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.41.36:729][145]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.41.36:729][145]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.41.36:770][145]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.41.36:770][145]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.41.36:771][145]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.41.36:771][145]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.41.36:771][145]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.41.36:771][145]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.41.36:771][145]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.41.36:785][145]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.41.36:785][145]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.41.36:785][145]LogInit: FAudioDevice initialized.
+[2022.04.29-17.41.36:785][145]LogAudio: Display: Audio Device (ID: 22) registered with world 'Start'.
+[2022.04.29-17.41.36:823][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.41.36:824][145]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.41.36:831][145]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.41.36
+[2022.04.29-17.41.36:831][145]LogWorld: Bringing up level for play took: 0.007327
+[2022.04.29-17.41.36:832][145]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.04.29-17.41.36:845][145]PIE: Server logged in
+[2022.04.29-17.41.36:852][145]PIE: Play in editor total start time 0.203 seconds.
+[2022.04.29-17.41.40:749][498]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.41.40:749][498]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.41.40:749][498]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.42.21:232][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.42.21:232][ 38]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.42.21:232][ 38]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.42.21:235][ 38]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.42.21:236][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.42.21:242][ 38]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.42.21:270][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.42.21:313][ 38]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.42.21:315][ 38]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.42.21:346][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2022.04.29-17.42.21:402][ 39]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.04.29-17.42.22:351][ 84]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.42.22:362][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.42.22:363][ 84]PIE: New page: PIE session: Start (29 Apr 2022, 19:42:22)
+[2022.04.29-17.42.22:363][ 84]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.42.22:377][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014007s)
+[2022.04.29-17.42.22:378][ 84]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.42.22:378][ 84]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2022.04.29-17.42.22:378][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015318s)
+[2022.04.29-17.42.22:420][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   6.47ms
+[2022.04.29-17.42.22:421][ 84]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.04.29-17.42.22:421][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.42.22:421][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.42.22:421][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.42.22:421][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.42.22:421][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.42.22:421][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.42.22:421][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.42.22:421][ 84]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.42.22:422][ 84]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.42.22:422][ 84]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.42.22:435][ 84]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.42.22:435][ 84]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.42.22:478][ 84]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.42.22:478][ 84]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.42.22:478][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.42.22:478][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.42.22:478][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.42.22:478][ 84]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.42.22:478][ 84]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.42.22:493][ 84]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.42.22:493][ 84]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.42.22:493][ 84]LogInit: FAudioDevice initialized.
+[2022.04.29-17.42.22:493][ 84]LogAudio: Display: Audio Device (ID: 23) registered with world 'Start'.
+[2022.04.29-17.42.22:544][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.42.22:544][ 84]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.42.22:551][ 84]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.42.22
+[2022.04.29-17.42.22:552][ 84]LogWorld: Bringing up level for play took: 0.007262
+[2022.04.29-17.42.22:552][ 84]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.04.29-17.42.22:565][ 84]PIE: Server logged in
+[2022.04.29-17.42.22:573][ 84]PIE: Play in editor total start time 0.215 seconds.
+[2022.04.29-17.42.26:103][246]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.42.26:103][246]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.42.26:103][246]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.42.31:752][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.42.31:752][506]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.42.31:752][506]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.42.31:755][506]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.42.31:756][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.42.31:767][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.42.31:791][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.42.31:832][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.42.31:833][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.42.31:861][506]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
+[2022.04.29-17.42.31:925][507]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.04.29-17.42.32:350][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2022.04.29-17.42.33:672][591]LogEditorViewport: Clicking on Actor (LMB): Guardian_C (Guardian)
+[2022.04.29-17.42.34:853][638]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.42.34:864][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.42.34:864][638]PIE: New page: PIE session: Start (29 Apr 2022, 19:42:34)
+[2022.04.29-17.42.34:865][638]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.42.34:879][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014297s)
+[2022.04.29-17.42.34:880][638]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.42.34:880][638]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2022.04.29-17.42.34:880][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015751s)
+[2022.04.29-17.42.34:923][638]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2022.04.29-17.42.34:925][638]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.04.29-17.42.34:925][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.42.34:925][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.42.34:925][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.42.34:925][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.42.34:925][638]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.42.34:925][638]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.42.34:925][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.42.34:925][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.42.34:925][638]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.42.34:925][638]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.42.34:939][638]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.42.34:939][638]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.42.34:980][638]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.42.34:981][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.42.34:981][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.42.34:981][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.42.34:981][638]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.42.34:981][638]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.42.34:981][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.42.34:995][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.42.34:995][638]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.42.34:995][638]LogInit: FAudioDevice initialized.
+[2022.04.29-17.42.34:995][638]LogAudio: Display: Audio Device (ID: 24) registered with world 'Start'.
+[2022.04.29-17.42.35:054][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.42.35:054][638]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.42.35:063][638]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.42.35
+[2022.04.29-17.42.35:063][638]LogWorld: Bringing up level for play took: 0.006879
+[2022.04.29-17.42.35:063][638]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.04.29-17.42.35:076][638]PIE: Server logged in
+[2022.04.29-17.42.35:084][638]PIE: Play in editor total start time 0.225 seconds.
+[2022.04.29-17.42.38:227][782]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.42.38:228][782]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.42.38:228][782]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.43.08:671][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.43.08:671][925]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.43.08:671][925]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.43.08:674][925]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.43.08:675][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.43.08:681][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.43.08:734][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.43.08:786][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.43.08:787][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.43.08:815][925]LogUObjectHash: Compacting FUObjectHashTables data took   6.37ms
+[2022.04.29-17.43.08:879][926]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.04.29-17.43.16:716][448]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian6202AC0E42C950F9FAE9C88064AB7984.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.43.16:733][448]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.43.16:733][448]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.43.17:913][527]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.43.17:925][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.43.17:925][527]PIE: New page: PIE session: Start (29 Apr 2022, 19:43:17)
+[2022.04.29-17.43.17:925][527]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.43.17:939][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013985s)
+[2022.04.29-17.43.17:940][527]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.43.17:940][527]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2022.04.29-17.43.17:940][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.015305s)
+[2022.04.29-17.43.17:985][527]LogUObjectHash: Compacting FUObjectHashTables data took   6.46ms
+[2022.04.29-17.43.17:987][527]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.04.29-17.43.17:987][527]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.43.17:987][527]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.43.17:988][527]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.43.17:988][527]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.43.17:988][527]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.43.17:988][527]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.43.17:988][527]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.43.17:988][527]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.43.17:988][527]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.43.17:988][527]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.43.18:002][527]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.43.18:002][527]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.43.18:043][527]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.43.18:043][527]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.43.18:043][527]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.43.18:044][527]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.43.18:044][527]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.43.18:044][527]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.43.18:044][527]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.43.18:057][527]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.43.18:057][527]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.43.18:057][527]LogInit: FAudioDevice initialized.
+[2022.04.29-17.43.18:057][527]LogAudio: Display: Audio Device (ID: 25) registered with world 'Start'.
+[2022.04.29-17.43.18:107][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.43.18:107][527]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.43.18:114][527]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.43.18
+[2022.04.29-17.43.18:115][527]LogWorld: Bringing up level for play took: 0.007503
+[2022.04.29-17.43.18:115][527]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2022.04.29-17.43.18:127][527]PIE: Server logged in
+[2022.04.29-17.43.18:136][527]PIE: Play in editor total start time 0.216 seconds.
+[2022.04.29-17.43.21:947][832]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.43.21:947][832]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.43.21:947][832]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.43.41:041][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.43.41:041][328]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.43.41:041][328]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.43.41:044][328]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.43.41:046][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.43.41:053][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.43.41:100][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.43.41:138][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.43.41:139][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.43.41:169][328]LogUObjectHash: Compacting FUObjectHashTables data took   6.45ms
+[2022.04.29-17.43.41:237][329]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.04.29-17.43.56:033][332]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardian1D97602743FCF0E113B6BEA4439AB0C4.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.uasset'
+[2022.04.29-17.43.56:052][332]AssetCheck: New page: Asset Save: DialogueTreeGuardian
+[2022.04.29-17.43.56:052][332]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardian.DialogueTreeGuardian
+[2022.04.29-17.43.56:972][393]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.29-17.43.56:984][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.29-17.43.56:984][393]PIE: New page: PIE session: Start (29 Apr 2022, 19:43:56)
+[2022.04.29-17.43.56:984][393]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.43.56:997][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013377s)
+[2022.04.29-17.43.56:998][393]LogAIModule: Creating AISystem for world Start
+[2022.04.29-17.43.56:999][393]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2022.04.29-17.43.56:999][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Start.Start to /Game/Sara/Levels/UEDPIE_0_Start.Start (0.014708s)
+[2022.04.29-17.43.57:043][393]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2022.04.29-17.43.57:046][393]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.04.29-17.43.57:046][393]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.29-17.43.57:046][393]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.29-17.43.57:046][393]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.29-17.43.57:046][393]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.29-17.43.57:046][393]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.29-17.43.57:046][393]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.29-17.43.57:046][393]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.29-17.43.57:046][393]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.29-17.43.57:046][393]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.29-17.43.57:046][393]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.29-17.43.57:060][393]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.29-17.43.57:060][393]LogAudioMixer: Display: 1: FrontRight
+[2022.04.29-17.43.57:103][393]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.29-17.43.57:103][393]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.29-17.43.57:103][393]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.29-17.43.57:103][393]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.29-17.43.57:103][393]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.29-17.43.57:103][393]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.29-17.43.57:103][393]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.29-17.43.57:117][393]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.29-17.43.57:117][393]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.29-17.43.57:117][393]LogInit: FAudioDevice initialized.
+[2022.04.29-17.43.57:117][393]LogAudio: Display: Audio Device (ID: 26) registered with world 'Start'.
+[2022.04.29-17.43.57:172][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.43.57:173][393]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.29-17.43.57:180][393]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2022.04.29-18.43.57
+[2022.04.29-17.43.57:180][393]LogWorld: Bringing up level for play took: 0.007138
+[2022.04.29-17.43.57:180][393]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2022.04.29-17.43.57:193][393]PIE: Server logged in
+[2022.04.29-17.43.57:202][393]PIE: Play in editor total start time 0.222 seconds.
+[2022.04.29-17.44.00:843][684]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.04.29-17.44.00:843][684]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.04.29-17.44.00:844][684]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.04.29-17.44.32:941][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.29-17.44.32:941][271]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Start
+[2022.04.29-17.44.32:941][271]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.29-17.44.32:952][271]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.44.32:954][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.44.32:963][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.29-17.44.33:011][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.44.33:050][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.44.33:051][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.44.33:080][271]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2022.04.29-17.44.33:136][272]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.04.29-17.45.02:907][891]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2022.04.29-17.45.02:961][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.04.29-17.45.03:067][891]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/Start8C558BBD49B8F6112462D086D16465D2.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/Levels/Start.umap'
+[2022.04.29-17.45.03:081][891]LogFileHelpers: No new changes to save!
+[2022.04.29-17.45.03:082][891]LogFileHelpers: Saving map 'Start' took 0.161
+[2022.04.29-17.45.03:099][891]AssetCheck: New page: Asset Save: Start
+[2022.04.29-17.45.03:099][891]LogContentValidation: Display: Validating World /Game/Sara/Levels/Start.Start
+[2022.04.29-17.45.06:169][ 62]LogSlate: Window 'ResponceCheck' being destroyed
+[2022.04.29-17.45.06:174][ 62]LogSlate: Window 'ResponceCheck' being destroyed
+[2022.04.29-17.45.06:250][ 62]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.06:250][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.45.06:317][ 62]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.06:317][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.45.06:333][ 62]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.06:333][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.45.06:389][ 62]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.06:389][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.29-17.45.08:822][322]LogUObjectHash: Compacting FUObjectHashTables data took   7.01ms
+[2022.04.29-17.45.08:849][322]LogSlate: Window 'FinalYearProject - Unreal Editor' being destroyed
+[2022.04.29-17.45.08:955][323]Cmd: QUIT_EDITOR
+[2022.04.29-17.45.08:955][323]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.04.29-17.45.08:961][323]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.04.29-17.45.09:324][323]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.04.29-17.45.09:324][323]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.04.29-17.45.09:324][323]LogAudio: Display: Audio Device unregistered from world 'Start'.
+[2022.04.29-17.45.09:324][323]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.45.09:325][323]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.29-17.45.09:358][323]LogAudio: Display: Audio Device Manager Shutdown
+[2022.04.29-17.45.09:358][323]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.29-17.45.09:362][323]LogExit: Preparing to exit.
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F3500] Windows
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F3400] Default__DeviceProfile
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06ACD00] WindowsNoEditor
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F0D00] WindowsServer
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AEE00] WindowsClient
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F2D00] IOS
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AD500] iPadAir
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F1400] iPadAir2
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A0668900] IPadPro
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A0668A00] iPadAir3
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F2800] iPadAir4
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A066B600] iPadMini2
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F1800] iPadMini3
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A066A000] iPadMini4
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F0B00] iPadMini5
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06ACB00] iPhone6
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064FF00] iPodTouch6
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE800] iPhone7
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE900] iPodTouch7
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064D200] iPhone5S
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE000] iPhone6Plus
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064E900] iPhone6S
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AC300] iPhone6SPlus
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064D900] iPhone7Plus
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AD400] iPhoneSE
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064CC00] iPhone8
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AD700] iPhone8Plus
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064CB00] iPhoneX
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AF900] iPhoneXS
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064FC00] iPhoneXSMax
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AC200] iPhoneXR
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064CF00] iPhone11
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AD300] iPhone11Pro
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064EC00] iPhone11ProMax
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AF100] iPhoneSE2
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064FB00] iPhone12Mini
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AEA00] iPhone12
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064F800] iPhone12Pro
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AD200] iPhone12ProMax
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064FD00] iPadPro105
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AFF00] iPadPro129
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064F900] iPadPro97
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE600] iPadPro2_129
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064E700] iPad5
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AD600] iPad6
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064EA00] iPad7
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AC400] iPad8
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064E400] iPadPro11
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE500] iPadPro2_11
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064C500] iPadPro3_129
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE400] iPadPro4_129
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064EF00] AppleTV
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE100] AppleTV4K
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064C900] TVOS
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AED00] Mac
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064DF00] MacClient
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AC600] MacNoEditor
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064C400] MacServer
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AF200] Linux
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A064DC00] LinuxAArch64
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AFA00] LinuxNoEditor
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A0739000] LinuxAArch64NoEditor
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F2100] LinuxClient
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A0738300] LinuxAArch64Client
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F0700] LinuxServer
+[2022.04.29-17.45.09:603][323]LogDeviceProfile: Device profile begin destroy: [00000218A0739500] LinuxAArch64Server
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F3C00] Android
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A0738100] Android_Low
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F2700] Android_Mid
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A0739300] Android_High
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F0200] Android_Default
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A0738600] Android_Adreno4xx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06F0900] Android_Adreno5xx_Low
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06ADA00] Android_Adreno5xx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064F000] Android_Adreno6xx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AC700] Android_Adreno6xx_Vulkan
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064C600] Android_Mali_T6xx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AF600] Android_Mali_T7xx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064D400] Android_Mali_T8xx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06ACF00] Android_Mali_G71
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064EE00] Android_Mali_G72
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06ACE00] Android_Mali_G72_Vulkan
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064E500] Android_Mali_G76
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AD100] Android_Mali_G76_Vulkan
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064D100] Android_Mali_G77
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AD000] Android_Mali_G77_Vulkan
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064C100] Android_Vulkan_SM5
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AFE00] Android_PowerVR_G6xxx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064CE00] Android_PowerVR_GT7xxx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE300] Android_PowerVR_GE8xxx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064E600] Android_PowerVR_GM9xxx
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AF500] Android_PowerVR_GM9xxx_Vulkan
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A064C200] Android_TegraK1
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06AE200] Android_Unknown_Vulkan
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A0738B00] Lumin
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A06ADD00] Lumin_Desktop
+[2022.04.29-17.45.09:604][323]LogDeviceProfile: Device profile begin destroy: [00000218A0739C00] HoloLens
+[2022.04.29-17.45.09:626][323]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.09:631][323]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.09:636][323]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.09:641][323]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.09:645][323]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.09:740][323]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.04.29-17.45.09:751][323]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.29-17.45.09:752][323]LogExit: Editor shut down
+[2022.04.29-17.45.09:752][323]LogExit: Transaction tracking system shut down
+[2022.04.29-17.45.10:108][323]LogExit: Object subsystem successfully closed.
+[2022.04.29-17.45.10:140][323]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (830)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module Voice (828)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module SequencerWidgets (826)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module BlueprintGraph (824)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (822)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module SceneOutliner (820)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module AddContentDialog (818)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module WidgetCarousel (817)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module EditorWidgets (814)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module StatsViewer (812)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (810)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (808)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module AutomationWorker (806)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module SteamVREditor (804)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module OculusMR (802)
+[2022.04.29-17.45.10:198][323]LogModuleManager: Shutting down and abandoning module HoudiniEngineEditor (800)
+[2022.04.29-17.45.10:198][323]LogHoudiniEngineEditor: Shutting down the Houdini Engine Editor module.
+[2022.04.29-17.45.10:198][323]LogHoudiniEngineEditor: Houdini Engine Editor module shutdown complete.
+[2022.04.29-17.45.10:200][323]LogModuleManager: Shutting down and abandoning module GooglePADEditor (798)
+[2022.04.29-17.45.10:200][323]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (796)
+[2022.04.29-17.45.10:200][323]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (794)
+[2022.04.29-17.45.10:200][323]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (792)
+[2022.04.29-17.45.10:200][323]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (790)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (788)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (786)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (784)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (782)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (780)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module WebMMedia (778)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (776)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (774)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module SequenceRecorder (773)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (770)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (768)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (766)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (764)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (762)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (760)
+[2022.04.29-17.45.10:202][323]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (758)
+[2022.04.29-17.45.10:203][323]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (756)
+[2022.04.29-17.45.10:203][323]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (754)
+[2022.04.29-17.45.10:203][323]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (752)
+[2022.04.29-17.45.10:203][323]LogModuleManager: Shutting down and abandoning module PlanarCut (750)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module CharacterAI (748)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module TextureAlignMode (746)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module BspMode (744)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module GeometryMode (742)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (740)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module SmartSnapping (738)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module SessionServices (736)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module MeshPaint (734)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (732)
+[2022.04.29-17.45.10:204][323]LogModuleManager: Shutting down and abandoning module FoliageEdit (730)
+[2022.04.29-17.45.10:205][323]LogModuleManager: Shutting down and abandoning module LandscapeEditor (728)
+[2022.04.29-17.45.10:207][323]LogModuleManager: Shutting down and abandoning module MeshPaintMode (726)
+[2022.04.29-17.45.10:207][323]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (724)
+[2022.04.29-17.45.10:207][323]LogModuleManager: Shutting down and abandoning module ActorPickerMode (722)
+[2022.04.29-17.45.10:207][323]LogModuleManager: Shutting down and abandoning module PlacementMode (720)
+[2022.04.29-17.45.10:207][323]LogModuleManager: Shutting down and abandoning module ViewportSnapping (718)
+[2022.04.29-17.45.10:207][323]LogModuleManager: Shutting down and abandoning module ViewportInteraction (716)
+[2022.04.29-17.45.10:207][323]LogModuleManager: Shutting down and abandoning module ClothPainter (714)
+[2022.04.29-17.45.10:209][323]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (713)
+[2022.04.29-17.45.10:213][323]LogModuleManager: Shutting down and abandoning module LogVisualizer (710)
+[2022.04.29-17.45.10:213][323]LogModuleManager: Shutting down and abandoning module IntroTutorials (708)
+[2022.04.29-17.45.10:213][323]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (707)
+[2022.04.29-17.45.10:214][323]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (704)
+[2022.04.29-17.45.10:214][323]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (702)
+[2022.04.29-17.45.10:214][323]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (700)
+[2022.04.29-17.45.10:214][323]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (699)
+[2022.04.29-17.45.11:590][323]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (696)
+[2022.04.29-17.45.11:590][323]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (694)
+[2022.04.29-17.45.11:590][323]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (692)
+[2022.04.29-17.45.11:590][323]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (690)
+[2022.04.29-17.45.11:590][323]LogModuleManager: Shutting down and abandoning module TraceInsights (688)
+[2022.04.29-17.45.11:595][323]MemoryProfiler: Shutdown
+[2022.04.29-17.45.11:595][323]NetworkingProfiler: Shutdown
+[2022.04.29-17.45.11:595][323]LoadingProfiler: Shutdown
+[2022.04.29-17.45.11:596][323]TimingProfiler: Shutdown
+[2022.04.29-17.45.11:598][323]LogModuleManager: Shutting down and abandoning module TraceServices (687)
+[2022.04.29-17.45.11:601][323]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (684)
+[2022.04.29-17.45.11:601][323]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (682)
+[2022.04.29-17.45.11:601][323]LogModuleManager: Shutting down and abandoning module InputBindingEditor (680)
+[2022.04.29-17.45.11:601][323]LogModuleManager: Shutting down and abandoning module MergeActors (678)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (676)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module LocalizationService (675)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module HardwareTargeting (672)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (670)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module UndoHistory (668)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module XmlParser (666)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module Blutility (664)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (662)
+[2022.04.29-17.45.11:602][323]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (661)
+[2022.04.29-17.45.11:603][323]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (658)
+[2022.04.29-17.45.11:603][323]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (657)
+[2022.04.29-17.45.11:603][323]LogModuleManager: Shutting down and abandoning module SettingsEditor (654)
+[2022.04.29-17.45.11:603][323]LogModuleManager: Shutting down and abandoning module ProjectLauncher (652)
+[2022.04.29-17.45.11:603][323]LogModuleManager: Shutting down and abandoning module SessionFrontend (650)
+[2022.04.29-17.45.11:603][323]LogModuleManager: Shutting down and abandoning module ProfilerClient (648)
+[2022.04.29-17.45.11:604][323]LogModuleManager: Shutting down and abandoning module DeviceManager (646)
+[2022.04.29-17.45.11:605][323]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (645)
+[2022.04.29-17.45.11:636][323]LogModuleManager: Shutting down and abandoning module AutomationController (642)
+[2022.04.29-17.45.11:636][323]LogModuleManager: Shutting down and abandoning module AutomationWindow (640)
+[2022.04.29-17.45.11:639][323]LogModuleManager: Shutting down and abandoning module Layers (638)
+[2022.04.29-17.45.11:642][323]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (636)
+[2022.04.29-17.45.11:642][323]LogModuleManager: Shutting down and abandoning module DetailCustomizations (634)
+[2022.04.29-17.45.11:642][323]LogModuleManager: Shutting down and abandoning module PackagesDialog (632)
+[2022.04.29-17.45.11:642][323]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (630)
+[2022.04.29-17.45.11:644][323]LogModuleManager: Shutting down and abandoning module Persona (628)
+[2022.04.29-17.45.11:646][323]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (627)
+[2022.04.29-17.45.11:646][323]LogModuleManager: Shutting down and abandoning module AnimGraph (625)
+[2022.04.29-17.45.11:646][323]LogModuleManager: Shutting down and abandoning module Kismet (622)
+[2022.04.29-17.45.11:665][323]LogModuleManager: Shutting down and abandoning module KismetWidgets (621)
+[2022.04.29-17.45.11:665][323]LogModuleManager: Shutting down and abandoning module GraphEditor (618)
+[2022.04.29-17.45.11:665][323]LogModuleManager: Shutting down and abandoning module StructViewer (616)
+[2022.04.29-17.45.11:665][323]LogModuleManager: Shutting down and abandoning module ClassViewer (614)
+[2022.04.29-17.45.11:667][323]LogModuleManager: Shutting down and abandoning module Toolbox (612)
+[2022.04.29-17.45.11:667][323]LogModuleManager: Shutting down and abandoning module ModuleUI (610)
+[2022.04.29-17.45.11:669][323]LogModuleManager: Shutting down and abandoning module OutputLog (608)
+[2022.04.29-17.45.11:670][323]LogModuleManager: Shutting down and abandoning module GammaUI (606)
+[2022.04.29-17.45.11:670][323]LogModuleManager: Shutting down and abandoning module Documentation (604)
+[2022.04.29-17.45.11:670][323]LogModuleManager: Shutting down and abandoning module LiveCoding (602)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module LevelSequence (600)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (598)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module MovieScene (596)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (594)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module LauncherPlatform (592)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module AnalyticsET (590)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module PortalServices (588)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module PortalRpc (586)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module MessagingRpc (584)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (582)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module AudioMixerCore (581)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module AIModule (578)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module GameplayDebugger (577)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module AITestSuite (575)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module NavigationSystem (573)
+[2022.04.29-17.45.11:671][323]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (570)
+[2022.04.29-17.45.11:676][323]LogModuleManager: Shutting down and abandoning module ProfilerService (568)
+[2022.04.29-17.45.11:729][323]LogModuleManager: Shutting down and abandoning module TaskGraph (566)
+[2022.04.29-17.45.11:730][323]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (564)
+[2022.04.29-17.45.11:730][323]LogModuleManager: Shutting down and abandoning module OculusEditor (562)
+[2022.04.29-17.45.11:730][323]LogModuleManager: Shutting down and abandoning module OculusInput (560)
+[2022.04.29-17.45.11:730][323]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (558)
+[2022.04.29-17.45.11:730][323]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (556)
+[2022.04.29-17.45.11:730][323]LogModuleManager: Shutting down and abandoning module CollectionManager (555)
+[2022.04.29-17.45.11:730][323]LogModuleManager: Shutting down and abandoning module SynthesisEditor (552)
+[2022.04.29-17.45.11:730][323]LogModuleManager: Shutting down and abandoning module Synthesis (550)
+[2022.04.29-17.45.11:732][323]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (548)
+[2022.04.29-17.45.11:732][323]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (546)
+[2022.04.29-17.45.11:732][323]LogModuleManager: Shutting down and abandoning module ScreenshotTools (544)
+[2022.04.29-17.45.11:732][323]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (542)
+[2022.04.29-17.45.11:732][323]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (540)
+[2022.04.29-17.45.11:732][323]LogModuleManager: Shutting down and abandoning module HoudiniEngine (538)
+[2022.04.29-17.45.11:732][323]LogHoudiniEngine: Shutting down the Houdini Engine module.
+[2022.04.29-17.45.11:771][323]LogModuleManager: Shutting down and abandoning module GooglePAD (536)
+[2022.04.29-17.45.11:771][323]LogModuleManager: Shutting down and abandoning module EditableMesh (534)
+[2022.04.29-17.45.11:771][323]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (532)
+[2022.04.29-17.45.11:771][323]LogModuleManager: Shutting down and abandoning module CableComponent (530)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module AudioCapture (528)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (527)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module AssetTags (524)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (522)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (520)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module AppleImageUtils (518)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module AndroidPermission (516)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (514)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (512)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module TemplateSequence (510)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MediaCompositing (508)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module ImgMedia (506)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (504)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (502)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (500)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (498)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (496)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (494)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MotoSynth (492)
+[2022.04.29-17.45.11:772][323]LogModuleManager: Shutting down and abandoning module MeshConversion (490)
+[2022.04.29-17.45.11:773][323]LogModuleManager: Shutting down and abandoning module DynamicMesh (488)
+[2022.04.29-17.45.11:775][323]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (486)
+[2022.04.29-17.45.11:778][323]LogModuleManager: Shutting down and abandoning module GeometricObjects (484)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (482)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (481)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (478)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (476)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (474)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (472)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (470)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module ChaosNiagara (468)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (466)
+[2022.04.29-17.45.11:779][323]LogModuleManager: Shutting down and abandoning module FractureEditor (464)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (463)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module BackChannel (460)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (458)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module AutomationUtils (456)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module AlembicImporter (454)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module AlembicLibrary (453)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module GeometryCache (452)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (451)
+[2022.04.29-17.45.11:780][323]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (446)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (444)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (442)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (440)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (438)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (436)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module PluginBrowser (434)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module UObjectPlugin (432)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (430)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (428)
+[2022.04.29-17.45.11:782][323]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (426)
+[2022.04.29-17.45.11:783][323]LogModuleManager: Shutting down and abandoning module PluginUtils (424)
+[2022.04.29-17.45.11:783][323]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (422)
+[2022.04.29-17.45.11:784][323]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (420)
+[2022.04.29-17.45.11:784][323]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (418)
+[2022.04.29-17.45.11:784][323]LogModuleManager: Shutting down and abandoning module GitSourceControl (416)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module SourceControl (415)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (412)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module CurveEditorTools (410)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (408)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module CryptoKeys (406)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (404)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (402)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (400)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (398)
+[2022.04.29-17.45.11:785][323]LogModuleManager: Shutting down and abandoning module Paper2DEditor (396)
+[2022.04.29-17.45.11:787][323]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (394)
+[2022.04.29-17.45.11:787][323]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (392)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module SoundFields (390)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (388)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module SignificanceManager (386)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (384)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (382)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (378)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (376)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (374)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module ActorSequence (372)
+[2022.04.29-17.45.11:788][323]LogModuleManager: Shutting down and abandoning module UdpMessaging (370)
+[2022.04.29-17.45.11:889][323]LogModuleManager: Shutting down and abandoning module TcpMessaging (368)
+[2022.04.29-17.45.11:989][323]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (366)
+[2022.04.29-17.45.11:989][323]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (364)
+[2022.04.29-17.45.11:989][323]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (362)
+[2022.04.29-17.45.11:989][323]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (360)
+[2022.04.29-17.45.11:989][323]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (358)
+[2022.04.29-17.45.11:990][323]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (356)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (354)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (352)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (350)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module MagicLeapController (348)
+[2022.04.29-17.45.11:990][323]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (346)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module MagicLeapAR (344)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module AugmentedReality (343)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (340)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module Niagara (338)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module SignalProcessing (337)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module NiagaraEditor (335)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module NiagaraCore (332)
+[2022.04.29-17.45.11:990][323]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (330)
+[2022.04.29-17.45.11:991][323]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (328)
+[2022.04.29-17.45.11:991][323]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (326)
+[2022.04.29-17.45.11:991][323]LogModuleManager: Shutting down and abandoning module FacialAnimation (324)
+[2022.04.29-17.45.11:991][323]LogModuleManager: Shutting down and abandoning module DataValidation (322)
+[2022.04.29-17.45.11:991][323]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (320)
+[2022.04.29-17.45.11:991][323]LogModuleManager: Shutting down and abandoning module LevelEditor (319)
+[2022.04.29-17.45.11:991][323]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (318)
+[2022.04.29-17.45.11:992][323]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (316)
+[2022.04.29-17.45.11:992][323]LogModuleManager: Shutting down and abandoning module MainFrame (314)
+[2022.04.29-17.45.11:992][323]LogModuleManager: Shutting down and abandoning module HotReload (313)
+[2022.04.29-17.45.11:992][323]LogModuleManager: Shutting down and abandoning module ToolMenus (309)
+[2022.04.29-17.45.11:992][323]LogModuleManager: Shutting down and abandoning module ContentBrowser (307)
+[2022.04.29-17.45.11:992][323]LogModuleManager: Shutting down and abandoning module ContentBrowserData (306)
+[2022.04.29-17.45.11:993][323]LogModuleManager: Shutting down and abandoning module TreeMap (303)
+[2022.04.29-17.45.11:993][323]LogModuleManager: Shutting down and abandoning module AnimationSharing (300)
+[2022.04.29-17.45.11:993][323]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (298)
+[2022.04.29-17.45.11:993][323]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (296)
+[2022.04.29-17.45.11:993][323]LogModuleManager: Shutting down and abandoning module Paper2D (294)
+[2022.04.29-17.45.11:993][323]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (292)
+[2022.04.29-17.45.11:994][323]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (290)
+[2022.04.29-17.45.11:994][323]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (288)
+[2022.04.29-17.45.11:994][323]LogModuleManager: Shutting down and abandoning module PacketHandler (286)
+[2022.04.29-17.45.11:994][323]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (284)
+[2022.04.29-17.45.11:994][323]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (282)
+[2022.04.29-17.45.11:997][323]LogModuleManager: Shutting down and abandoning module MediaAssets (280)
+[2022.04.29-17.45.11:997][323]LogModuleManager: Shutting down and abandoning module Overlay (278)
+[2022.04.29-17.45.11:997][323]LogModuleManager: Shutting down and abandoning module OverlayEditor (277)
+[2022.04.29-17.45.11:997][323]LogModuleManager: Shutting down and abandoning module VREditor (274)
+[2022.04.29-17.45.11:997][323]LogModuleManager: Shutting down and abandoning module StringTableEditor (272)
+[2022.04.29-17.45.11:998][323]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (270)
+[2022.04.29-17.45.11:998][323]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (268)
+[2022.04.29-17.45.11:998][323]LogModuleManager: Shutting down and abandoning module FunctionalTesting (266)
+[2022.04.29-17.45.11:998][323]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (264)
+[2022.04.29-17.45.12:000][323]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (263)
+[2022.04.29-17.45.12:000][323]LogModuleManager: Shutting down and abandoning module UMG (260)
+[2022.04.29-17.45.12:000][323]LogModuleManager: Shutting down and abandoning module UMGEditor (259)
+[2022.04.29-17.45.12:000][323]LogModuleManager: Shutting down and abandoning module MessageLog (257)
+[2022.04.29-17.45.12:000][323]LogModuleManager: Shutting down and abandoning module SlateReflector (252)
+[2022.04.29-17.45.12:002][323]LogModuleManager: Shutting down and abandoning module Slate (250)
+[2022.04.29-17.45.12:002][323]LogModuleManager: Shutting down and abandoning module SlateCore (248)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (246)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module UnrealEd (244)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module MRMesh (242)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (240)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (238)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module XAudio2 (236)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module Networking (234)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module Core (232)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module MaterialEditor (230)
+[2022.04.29-17.45.12:003][323]LogModuleManager: Shutting down and abandoning module MovieSceneTools (228)
+[2022.04.29-17.45.12:004][323]LogModuleManager: Shutting down and abandoning module CurveEditor (227)
+[2022.04.29-17.45.12:004][323]LogModuleManager: Shutting down and abandoning module Sequencer (225)
+[2022.04.29-17.45.12:004][323]LogModuleManager: Shutting down and abandoning module EditorStyle (224)
+[2022.04.29-17.45.12:005][323]LogModuleManager: Shutting down and abandoning module KismetCompiler (220)
+[2022.04.29-17.45.12:005][323]LogModuleManager: Shutting down and abandoning module MeshBuilder (218)
+[2022.04.29-17.45.12:005][323]LogModuleManager: Shutting down and abandoning module MeshUtilities (216)
+[2022.04.29-17.45.12:005][323]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (215)
+[2022.04.29-17.45.12:005][323]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (214)
+[2022.04.29-17.45.12:005][323]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (213)
+[2022.04.29-17.45.12:005][323]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (211)
+[2022.04.29-17.45.12:006][323]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (209)
+[2022.04.29-17.45.12:008][323]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (207)
+[2022.04.29-17.45.12:008][323]LogModuleManager: Shutting down and abandoning module MaterialBaking (203)
+[2022.04.29-17.45.12:008][323]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (198)
+[2022.04.29-17.45.12:008][323]LogModuleManager: Shutting down and abandoning module DerivedDataCache (196)
+[2022.04.29-17.45.12:008][323]LogModuleManager: Shutting down and abandoning module TargetPlatform (194)
+[2022.04.29-17.45.12:008][323]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2022.04.29-17.45.12:008][323]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (191)
+[2022.04.29-17.45.12:008][323]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (189)
+[2022.04.29-17.45.12:010][323]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (187)
+[2022.04.29-17.45.12:010][323]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (185)
+[2022.04.29-17.45.12:011][323]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (183)
+[2022.04.29-17.45.12:011][323]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (181)
+[2022.04.29-17.45.12:011][323]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (179)
+[2022.04.29-17.45.12:011][323]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (177)
+[2022.04.29-17.45.12:011][323]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (175)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (173)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module ImageWrapper (172)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (169)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (167)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (165)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (163)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (161)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (159)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (157)
+[2022.04.29-17.45.12:012][323]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (155)
+[2022.04.29-17.45.12:013][323]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (153)
+[2022.04.29-17.45.12:013][323]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (151)
+[2022.04.29-17.45.12:013][323]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (149)
+[2022.04.29-17.45.12:013][323]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (147)
+[2022.04.29-17.45.12:013][323]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (145)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (143)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (141)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (139)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (137)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (135)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (133)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module Messaging (129)
+[2022.04.29-17.45.12:014][323]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (127)
+[2022.04.29-17.45.12:016][323]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (125)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (123)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module InputCore (120)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module Settings (118)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module PhysXCooking (114)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module Chaos (112)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (110)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (109)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module AVEncoder (108)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (104)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module SteamVRInput (102)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module SteamVR (100)
+[2022.04.29-17.45.12:020][323]LogHMD: Freeing OpenVRDLLHandle.
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module OculusHMD (98)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (96)
+[2022.04.29-17.45.12:020][323]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (92)
+[2022.04.29-17.45.12:021][323]LogModuleManager: Shutting down and abandoning module XMPP (87)
+[2022.04.29-17.45.12:022][323]LogModuleManager: Shutting down and abandoning module WebSockets (86)
+[2022.04.29-17.45.12:053][323]LogModuleManager: Shutting down and abandoning module HTTP (83)
+[2022.04.29-17.45.12:053][323]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.04.29-17.45.12:053][323]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC2E4DFA-443B-2B96-CDDF-538575955B70%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fcc176584b876c6c960e4f986267a708%7C%7Ce381f23c-87cd-41ae-ba2c-a1cfbef32223&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.04.29-17.45.12:053][323]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.04.29-17.45.12:062][323]LogModuleManager: Shutting down and abandoning module SSL (82)
+[2022.04.29-17.45.12:063][323]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2022.04.29-17.45.12:063][323]LogModuleManager: Shutting down and abandoning module ChunkDownloader (76)
+[2022.04.29-17.45.12:064][323]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2022.04.29-17.45.12:064][323]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.04.29-17.45.12:066][323]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module ChaosCloth (60)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2022.04.29-17.45.12:067][323]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.04.29-17.45.12:068][323]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.04.29-17.45.12:069][323]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.04.29-17.45.12:069][323]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.04.29-17.45.12:069][323]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.04.29-17.45.12:070][323]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.04.29-17.45.12:070][323]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.04.29-17.45.12:074][323]LogD3D11RHI: Shutdown
+[2022.04.29-17.45.12:074][323]LogD3D11RHI: CleanupD3DDevice
+[2022.04.29-17.45.12:086][323]LogExit: Exiting.
+[2022.04.29-17.45.12:095][323]Log file closed, 04/29/22 18:45:12
