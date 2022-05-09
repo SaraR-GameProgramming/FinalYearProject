@@ -980,3 +980,97 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.09-09.52.05:787][748]AssetCheck: New page: Asset Save: PrisonGuard
 [2022.05.09-09.52.05:787][748]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/Farmer/PrisonGuard.PrisonGuard
 [2022.05.09-09.52.44:308][184]LogSlate: Took 5.709869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.09-09.58.06:118][ 25]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuard21C21D234BEEF173934CE28C24FD4EBB.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/Farmer/PrisonGuard.uasset'
+[2022.05.09-09.58.06:130][ 25]AssetCheck: New page: Asset Save: PrisonGuard
+[2022.05.09-09.58.06:130][ 25]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/Farmer/PrisonGuard.PrisonGuard
+[2022.05.09-09.58.08:986][257]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.09-09.58.08:996][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.09-09.58.08:997][257]PIE: New page: PIE session: Farmish (9 May 2022, 11:58:08)
+[2022.05.09-09.58.08:997][257]LogPlayLevel: Creating play world package: /Game/Sara/Levels/UEDPIE_0_Farmish
+[2022.05.09-09.58.09:021][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023842s)
+[2022.05.09-09.58.09:022][257]LogAIModule: Creating AISystem for world Farmish
+[2022.05.09-09.58.09:022][257]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2022.05.09-09.58.09:022][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sara/Levels/Farmish.Farmish to /Game/Sara/Levels/UEDPIE_0_Farmish.Farmish (0.025309s)
+[2022.05.09-09.58.09:029][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.05.09-09.58.09:030][257]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.09-09.58.09:030][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.09-09.58.09:030][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.09-09.58.09:030][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.09-09.58.09:030][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.09-09.58.09:030][257]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.09-09.58.09:030][257]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.09-09.58.09:030][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.09-09.58.09:030][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.09-09.58.09:031][257]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.09-09.58.09:031][257]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.09-09.58.09:042][257]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.09-09.58.09:042][257]LogAudioMixer: Display: 1: FrontRight
+[2022.05.09-09.58.09:083][257]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.05.09-09.58.09:084][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.09-09.58.09:084][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.09-09.58.09:084][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.09-09.58.09:084][257]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.09-09.58.09:084][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.09-09.58.09:084][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.09-09.58.09:096][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.09-09.58.09:096][257]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.09-09.58.09:096][257]LogInit: FAudioDevice initialized.
+[2022.05.09-09.58.09:096][257]LogAudio: Display: Audio Device (ID: 3) registered with world 'Farmish'.
+[2022.05.09-09.58.09:158][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.09-09.58.09:158][257]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.09-09.58.09:175][257]LogWorld: Bringing World /Game/Sara/Levels/UEDPIE_0_Farmish.Farmish up for play (max tick rate 0) at 2022.05.09-10.58.09
+[2022.05.09-09.58.09:177][257]LogWorld: Bringing up level for play took: 0.017715
+[2022.05.09-09.58.09:177][257]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.05.09-09.58.09:184][257]PIE: Server logged in
+[2022.05.09-09.58.09:186][257]PIE: Play in editor total start time 0.194 seconds.
+[2022.05.09-09.58.12:507][428]LogRenderer: Reallocating scene render targets to support 1920x1136 Format 10 NumSamples 1 (Frame:172).
+[2022.05.09-09.58.19:077][824]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.05.09-09.58.19:077][824]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.05.09-09.58.19:077][824]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.09-09.58.32:809][689]LogBlueprintUserMessages: [PitchforkA_5] Picked up quest item
+[2022.05.09-09.59.22:198][964]LogSlate: Window 'FinalYearProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.09-09.59.22:234][964]LogWorld: BeginTearingDown for /Game/Sara/Levels/UEDPIE_0_Farmish
+[2022.05.09-09.59.22:235][964]LogWorld: UWorld::CleanupWorld for Farmish, bSessionEnded=true, bCleanupResources=true
+[2022.05.09-09.59.22:237][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.09-09.59.22:249][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.09-09.59.22:258][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.09-09.59.22:266][964]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.09-09.59.22:266][964]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.09-09.59.22:267][964]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.09-09.59.22:289][964]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.05.09-09.59.22:321][965]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.09-10.08.40:685][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.05.09-10.08.40:686][300]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sara/Levels/Farmish' took 0.009
+[2022.05.09-10.08.40:687][300]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sara/AI/NPCs/Farmer/PrisonGuard] ([1] browsable assets)...
+[2022.05.09-10.08.40:687][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sara/AI/NPCs/Farmer/PrisonGuard]
+[2022.05.09-10.08.40:708][300]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuard_Auto238CC4955494DB610D76B5D99201CBE0A.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/Autosaves/Game/Sara/AI/NPCs/Farmer/PrisonGuard_Auto2.uasset'
+[2022.05.09-10.08.40:711][300]LogFileHelpers: Auto-saving content packages took 0.024
+[2022.05.09-10.11.31:903][732]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuardCE4F5F604C0F5C067FFF2EA1C3A67B15.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/Farmer/PrisonGuard.uasset'
+[2022.05.09-10.11.31:915][732]AssetCheck: New page: Asset Save: PrisonGuard
+[2022.05.09-10.11.31:916][732]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/Farmer/PrisonGuard.PrisonGuard
+[2022.05.09-10.20.08:939][128]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuard27CA029749D606B7629B9EB1EC51133D.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/Farmer/PrisonGuard.uasset'
+[2022.05.09-10.20.08:951][128]AssetCheck: New page: Asset Save: PrisonGuard
+[2022.05.09-10.20.08:951][128]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/Farmer/PrisonGuard.PrisonGuard
+[2022.05.09-10.22.39:427][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.05.09-10.22.39:428][469]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sara/Levels/Farmish' took 0.008
+[2022.05.09-10.22.39:429][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sara/AI/NPCs/Farmer/PrisonGuard] ([1] browsable assets)...
+[2022.05.09-10.22.39:429][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sara/AI/NPCs/Farmer/PrisonGuard]
+[2022.05.09-10.22.39:450][469]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuard_Auto391C8B44142D1653F420116BA07703E74.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/Autosaves/Game/Sara/AI/NPCs/Farmer/PrisonGuard_Auto3.uasset'
+[2022.05.09-10.22.39:453][469]LogFileHelpers: Auto-saving content packages took 0.024
+[2022.05.09-10.24.37:670][510]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuard93E5E93F4FECDA2C012DABBA48F7C770.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/Farmer/PrisonGuard.uasset'
+[2022.05.09-10.24.37:682][510]AssetCheck: New page: Asset Save: PrisonGuard
+[2022.05.09-10.24.37:683][510]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/Farmer/PrisonGuard.PrisonGuard
+[2022.05.09-10.27.24:380][706]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuard466F56484AFA5D9B2CA07CAC4D48588F.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/Farmer/PrisonGuard.uasset'
+[2022.05.09-10.27.24:393][706]AssetCheck: New page: Asset Save: PrisonGuard
+[2022.05.09-10.27.24:393][706]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/Farmer/PrisonGuard.PrisonGuard
+[2022.05.09-10.27.53:325][566]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuard1674DE724DE305280FA1C28E58B96FC1.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/Farmer/PrisonGuard.uasset'
+[2022.05.09-10.27.53:336][566]AssetCheck: New page: Asset Save: PrisonGuard
+[2022.05.09-10.27.53:336][566]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/Farmer/PrisonGuard.PrisonGuard
+[2022.05.09-10.29.37:127][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.05.09-10.29.37:339][901]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/Farmish8332AA4F41FDFA73BD60F6874062ECE9.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/Levels/Farmish.umap'
+[2022.05.09-10.29.37:351][901]LogFileHelpers: No new changes to save!
+[2022.05.09-10.29.37:358][901]AssetCheck: New page: Asset Save: Farmish
+[2022.05.09-10.29.37:359][901]LogContentValidation: Display: Validating World /Game/Sara/Levels/Farmish.Farmish
+[2022.05.09-10.33.51:732][388]LogSavePackage: Moving '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Saved/PrisonGuardF8AB5FDE4D8464109EE8088D05A9E639.tmp' to '../../../../../../Users/V8250114/Documents/GitHub/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/Farmer/PrisonGuard.uasset'
+[2022.05.09-10.33.51:743][388]AssetCheck: New page: Asset Save: PrisonGuard
+[2022.05.09-10.33.51:743][388]LogContentValidation: Display: Validating BehaviorTree /Game/Sara/AI/NPCs/Farmer/PrisonGuard.PrisonGuard
