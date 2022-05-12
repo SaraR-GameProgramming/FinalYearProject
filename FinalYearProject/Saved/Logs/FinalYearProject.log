@@ -4389,3 +4389,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.12-17.03.16:437][148]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
 [2022.05.12-17.03.16:675][148]LogExit: Editor shut down
 [2022.05.12-17.03.17:035][148]LogExit: Transaction tracking system shut down
+[2022.05.12-17.03.34:309][148]LogExit: Object subsystem successfully closed.
+[2022.05.12-17.03.35:429][148]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.05.12-17.03.40:971][148]LogModuleManager: Shutting down and abandoning module SequencerWidgets (824)
+[2022.05.12-17.03.40:972][148]LogModuleManager: Shutting down and abandoning module BlueprintGraph (822)
+[2022.05.12-17.03.40:972][148]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (820)
+[2022.05.12-17.03.40:972][148]LogModuleManager: Shutting down and abandoning module Voice (818)
+[2022.05.12-17.03.40:985][148]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (816)
+[2022.05.12-17.03.41:007][148]LogModuleManager: Shutting down and abandoning module SceneOutliner (814)
+[2022.05.12-17.03.41:030][148]LogModuleManager: Shutting down and abandoning module AddContentDialog (812)
