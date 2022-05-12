@@ -4238,3 +4238,27 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.12-16.14.04:234][211]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
 [2022.05.12-16.14.05:236][212]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
 [2022.05.12-16.14.05:692][214]LogRendererCore: Warning: Query 'Unaccounted' not ready.
+[2022.05.12-17.02.08:035][147]LogUObjectHash: Compacting FUObjectHashTables data took  66.33ms
+[2022.05.12-17.02.09:516][147]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.05.12-17.02.15:243][147]LogSlate: Window 'Save Content' being destroyed
+[2022.05.12-17.02.16:385][147]LogSavePackage: Moving '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/DialogueTreeGuardianBackUP4B59AC43448F757EA3C41BB3B180E74E.tmp' to '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Content/Sara/AI/NPCs/StartLevelAI/Dialogue/DialogueTreeGuardianBackUP.uasset'
+[2022.05.12-17.02.17:917][147]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2022.05.12-17.02.19:142][147]LogSavePackage: Moving '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Saved/Start7046BC164A4C29978F711AAA1CCC16EE.tmp' to '../../../../../../Users/Saral/Documents/FinalYearProject/FinalYearProject/Content/Sara/Levels/Start.umap'
+[2022.05.12-17.02.20:253][147]LogFileHelpers: Saving map 'Start' took 3.755
+[2022.05.12-17.02.21:522][147]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.05.12-17.02.21:544][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.12-17.02.27:711][147]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.05.12-17.02.27:712][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.12-17.02.27:762][147]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.05.12-17.02.27:762][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.12-17.02.29:127][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.12-17.02.29:149][147]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.05.12-17.02.29:149][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.12-17.02.32:104][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.12-17.02.32:104][147]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.05.12-17.02.32:104][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.12-17.02.33:452][147]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2022.05.12-17.02.36:760][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.05.12-17.02.36:760][147]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.05.12-17.02.36:760][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.12-17.02.39:498][147]LogSlate: Window 'FinalYearProject - Unreal Editor' being destroyed
